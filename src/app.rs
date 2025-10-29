@@ -1,4 +1,4 @@
-use crate::wgpu_ctx::{self, WgpuCtx};
+use crate::wgpu_ctx::WgpuCtx;
 
 use std::sync::Arc;
 use winit::application::ApplicationHandler;

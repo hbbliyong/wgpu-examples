@@ -2,11 +2,11 @@ use crate::app::App;
 use winit::error::EventLoopError;
 use winit::event_loop::{ControlFlow, EventLoop};
 
-mod Instance;
+mod instance;
 mod app;
 mod camera;
-mod cameraController;
-mod cameraUniform;
+mod camera_controller;
+mod camera_uniform;
 mod img_utils;
 mod texture;
 mod vertex;

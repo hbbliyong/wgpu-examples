@@ -1,8 +1,9 @@
-use crate::cameraController::CameraController;
-use crate::cameraUniform::CameraUniform;
+use crate::camera_controller::CameraController;
+use crate::camera_uniform::CameraUniform;
+use crate::instance::{Instance, InstanceRaw};
+use crate::vertex::{self, VERTEX_INDEX_LIST, VERTEX_LIST};
 use crate::{camera, texture};
 
-use crate::vertex::{VERTEX_INDEX_LIST, VERTEX_LIST, create_vertex_buffer_layout};
 use std::sync::Arc;
 use wgpu::MemoryHints::Performance;
 use wgpu::Trace;
@@ -29,6 +30,9 @@ pub struct WgpuCtx<'window> {
     camera_buffer: wgpu::Buffer,
     camera_bind_group: wgpu::BindGroup,
     pub camera_controller: CameraController,
+    instances: Vec<Instance>,
+    instance_buffer: wgpu::Buffer,
+    depth_texture: texture::Texture,
 }
 
 impl<'window> WgpuCtx<'window> {
@@ -192,6 +196,41 @@ impl<'window> WgpuCtx<'window> {
         });
 
         let camera_controller = CameraController::new(0.2);
+        const NUM_INSTANCES_PRE_ROW: u32 = 10;
+        const INSTANCE_DISPLACEMENT: glam::Vec3 = glam::Vec3::new(
+            NUM_INSTANCES_PRE_ROW as f32 * 0.5,
+            0.0,
+            NUM_INSTANCES_PRE_ROW as f32 * 0.5,
+        );
+
+        let instances = (0..NUM_INSTANCES_PRE_ROW)
+            .flat_map(|z| {
+                (0..NUM_INSTANCES_PRE_ROW).map(move |x| {
+                    let pos = glam::Vec3 {
+                        x: x as f32,
+                        y: 0.0,
+                        z: z as f32,
+                    } - INSTANCE_DISPLACEMENT;
+
+                    let rotation = if pos.length().abs() < f32::EPSILON {
+                        glam::Quat::from_axis_angle(glam::Vec3::Z, 0.0)
+                    } else {
+                        glam::Quat::from_axis_angle(pos.normalize(), std::f32::consts::FRAC_PI_4)
+                    };
+                    Instance { pos, rotation }
+                })
+            })
+            .collect::<Vec<_>>();
+
+        let instance_data = instances.iter().map(Instance::to_raw).collect::<Vec<_>>();
+        let instance_buffer = device.create_buffer_init(&wgpu::util::BufferInitDescriptor {
+            label: Some("Instance Buffer"),
+            contents: bytemuck::cast_slice(&instance_data),
+            usage: wgpu::BufferUsages::VERTEX,
+        });
+        let depth_texture =
+            texture::Texture::create_depth_texture(&device, &surface_config, "depth_texture");
+
         let render_pipeline_layout =
             device.create_pipeline_layout(&wgpu::PipelineLayoutDescriptor {
                 label: None,
@@ -221,6 +260,9 @@ impl<'window> WgpuCtx<'window> {
             camera_buffer,
             camera_bind_group,
             camera_controller,
+            instances,
+            instance_buffer,
+            depth_texture,
         }
     }
 
@@ -246,7 +288,7 @@ impl<'window> WgpuCtx<'window> {
             vertex: wgpu::VertexState {
                 module: &shader,
                 entry_point: Some("vs_main"),
-                buffers: &[create_vertex_buffer_layout()],
+                buffers: &[vertex::create_vertex_buffer_layout(), InstanceRaw::desc()],
                 compilation_options: Default::default(),
             },
             primitive: wgpu::PrimitiveState {
@@ -259,7 +301,13 @@ impl<'window> WgpuCtx<'window> {
                 compilation_options: Default::default(),
                 targets: &[Some(swap_chain_format.into())],
             }),
-            depth_stencil: None,
+            depth_stencil: Some(wgpu::DepthStencilState {
+                format: texture::Texture::DEPTH_FORMAT,
+                depth_write_enabled: true,
+                depth_compare: wgpu::CompareFunction::Less,
+                stencil: wgpu::StencilState::default(),
+                bias: wgpu::DepthBiasState::default(),
+            }),
             multisample: wgpu::MultisampleState::default(),
             multiview: None,
             cache: None,
@@ -275,7 +323,7 @@ impl<'window> WgpuCtx<'window> {
         let texutre_view = surface_texture
             .texture
             .create_view(&wgpu::TextureViewDescriptor::default());
-        self.update();
+
         let mut encoder = self
             .device
             .create_command_encoder(&wgpu::CommandEncoderDescriptor { label: None });
@@ -298,7 +346,14 @@ impl<'window> WgpuCtx<'window> {
                         },
                     }),
                 )],
-                depth_stencil_attachment: None,
+                depth_stencil_attachment: Some(wgpu::RenderPassDepthStencilAttachment {
+                    view: &self.depth_texture.view,
+                    depth_ops: Some(wgpu::Operations {
+                        load: wgpu::LoadOp::Clear(1.0),
+                        store: wgpu::StoreOp::Store,
+                    }),
+                    stencil_ops: None,
+                }),
                 timestamp_writes: None,
                 occlusion_query_set: None,
             });
@@ -306,11 +361,16 @@ impl<'window> WgpuCtx<'window> {
             r_pass.set_bind_group(1, &self.camera_bind_group, &[]);
             r_pass.set_pipeline(&self.render_pipeline);
             r_pass.set_vertex_buffer(0, self.vertex_buffer.slice(..));
+            r_pass.set_vertex_buffer(1, self.instance_buffer.slice(..));
             r_pass.set_index_buffer(
                 self.vertex_index_buffer.slice(..),
                 wgpu::IndexFormat::Uint16,
             );
-            r_pass.draw_indexed(0..VERTEX_INDEX_LIST.len() as u32, 0, 0..1);
+            r_pass.draw_indexed(
+                0..VERTEX_INDEX_LIST.len() as u32,
+                0,
+                0..self.instances.len() as _,
+            );
         }
 
         self.queue.submit(Some(encoder.finish()));
@@ -321,6 +381,12 @@ impl<'window> WgpuCtx<'window> {
         self.surface_config.width = size.width.max(1);
         self.surface_config.height = size.height.max(1);
         self.surface.configure(&self.device, &self.surface_config);
+
+        self.depth_texture = texture::Texture::create_depth_texture(
+            &self.device,
+            &self.surface_config,
+            "depth_texture",
+        );
     }
 
     pub fn update(&mut self /*, _dt: instant::Duration */) {
