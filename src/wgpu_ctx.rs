@@ -1,10 +1,15 @@
 use crate::camera_controller::CameraController;
 use crate::camera_uniform::CameraUniform;
 use crate::instance::{Instance, InstanceRaw};
-use crate::vertex::{self, VERTEX_INDEX_LIST, VERTEX_LIST};
-use crate::{camera, texture};
+use crate::vertex::{VERTEX_INDEX_LIST, VERTEX_LIST};
+use crate::{
+    camera,
+    model::{DrawModel, Model, ModelVertex, Vertex},
+    resources, texture,
+};
 
 use std::sync::Arc;
+
 use wgpu::MemoryHints::Performance;
 use wgpu::Trace;
 use wgpu::util::{BufferInitDescriptor, DeviceExt};
@@ -33,6 +38,7 @@ pub struct WgpuCtx<'window> {
     instances: Vec<Instance>,
     instance_buffer: wgpu::Buffer,
     depth_texture: texture::Texture,
+    obj_model: Model,
 }
 
 impl<'window> WgpuCtx<'window> {
@@ -203,14 +209,14 @@ impl<'window> WgpuCtx<'window> {
             NUM_INSTANCES_PRE_ROW as f32 * 0.5,
         );
 
+        const SPACE_BETWEEN: f32 = 3.0;
         let instances = (0..NUM_INSTANCES_PRE_ROW)
             .flat_map(|z| {
                 (0..NUM_INSTANCES_PRE_ROW).map(move |x| {
-                    let pos = glam::Vec3 {
-                        x: x as f32,
-                        y: 0.0,
-                        z: z as f32,
-                    } - INSTANCE_DISPLACEMENT;
+                    let x = SPACE_BETWEEN * (x as f32 - NUM_INSTANCES_PRE_ROW as f32 / 2.0);
+                    let z = SPACE_BETWEEN * (z as f32 - NUM_INSTANCES_PRE_ROW as f32 / 2.0);
+
+                    let pos = glam::Vec3 { x: x, y: 0.0, z: z };
 
                     let rotation = if pos.length().abs() < f32::EPSILON {
                         glam::Quat::from_axis_angle(glam::Vec3::Z, 0.0)
@@ -231,6 +237,10 @@ impl<'window> WgpuCtx<'window> {
         let depth_texture =
             texture::Texture::create_depth_texture(&device, &surface_config, "depth_texture");
 
+        let obj_model =
+            resources::load_model("cube.obj", &device, &queue, &camera_bind_group_layout)
+                .await
+                .unwrap();
         let render_pipeline_layout =
             device.create_pipeline_layout(&wgpu::PipelineLayoutDescriptor {
                 label: None,
@@ -263,6 +273,7 @@ impl<'window> WgpuCtx<'window> {
             instances,
             instance_buffer,
             depth_texture,
+            obj_model,
         }
     }
 
@@ -288,7 +299,7 @@ impl<'window> WgpuCtx<'window> {
             vertex: wgpu::VertexState {
                 module: &shader,
                 entry_point: Some("vs_main"),
-                buffers: &[vertex::create_vertex_buffer_layout(), InstanceRaw::desc()],
+                buffers: &[ModelVertex::desc(), InstanceRaw::desc()],
                 compilation_options: Default::default(),
             },
             primitive: wgpu::PrimitiveState {
@@ -366,11 +377,13 @@ impl<'window> WgpuCtx<'window> {
                 self.vertex_index_buffer.slice(..),
                 wgpu::IndexFormat::Uint16,
             );
-            r_pass.draw_indexed(
-                0..VERTEX_INDEX_LIST.len() as u32,
-                0,
-                0..self.instances.len() as _,
-            );
+            // r_pass.draw_indexed(
+            //     0..VERTEX_INDEX_LIST.len() as u32,
+            //     0,
+            //     0..self.instances.len() as _,
+            // );
+
+            r_pass.draw_mesh_instanced(&self.obj_model.meshes[0], 0..self.instances.len() as u32);
         }
 
         self.queue.submit(Some(encoder.finish()));
