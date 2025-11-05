@@ -10,6 +10,7 @@ use crate::{
 
 use std::sync::Arc;
 
+use log::info;
 use wgpu::MemoryHints::Performance;
 use wgpu::Trace;
 use wgpu::util::{BufferInitDescriptor, DeviceExt};
@@ -43,7 +44,23 @@ pub struct WgpuCtx<'window> {
 
 impl<'window> WgpuCtx<'window> {
     pub async fn new_async(window: Arc<Window>) -> Self {
-        let instance = wgpu::Instance::default();
+        let instance = wgpu::Instance::new(&wgpu::InstanceDescriptor {
+            backends: wgpu::Backends::all(),
+            ..Default::default()
+        });
+
+        // 枚举所有可用的适配器
+        let adapters = instance.enumerate_adapters(wgpu::Backends::all());
+
+        info!("找到 {} 个图形适配器:", adapters.len());
+        for (index, adapter) in adapters.iter().enumerate() {
+            let info = adapter.get_info();
+            info!("{}. 名称: {}", index + 1, info.name);
+            info!("   后端: {:?}", info.backend); // 这里直接输出后端类型，如 Vulkan, Metal, Gl等
+            info!("   设备类型: {:?}", info.device_type);
+            info!("   ---");
+        }
+
         let surface = instance.create_surface(window.clone()).unwrap();
 
         let adapter = instance
@@ -237,10 +254,9 @@ impl<'window> WgpuCtx<'window> {
         let depth_texture =
             texture::Texture::create_depth_texture(&device, &surface_config, "depth_texture");
 
-        let obj_model =
-            resources::load_model("cube.obj", &device, &queue, &camera_bind_group_layout)
-                .await
-                .unwrap();
+        let obj_model = resources::load_model("cube.obj", &device, &queue, &bind_group_layout)
+            .await
+            .unwrap();
         let render_pipeline_layout =
             device.create_pipeline_layout(&wgpu::PipelineLayoutDescriptor {
                 label: None,
@@ -377,13 +393,12 @@ impl<'window> WgpuCtx<'window> {
                 self.vertex_index_buffer.slice(..),
                 wgpu::IndexFormat::Uint16,
             );
-            // r_pass.draw_indexed(
-            //     0..VERTEX_INDEX_LIST.len() as u32,
-            //     0,
-            //     0..self.instances.len() as _,
-            // );
 
-            r_pass.draw_mesh_instanced(&self.obj_model.meshes[0], 0..self.instances.len() as u32);
+            r_pass.draw_model_instanced(
+                &self.obj_model,
+                0..self.instances.len() as u32,
+                &self.camera_bind_group,
+            );
         }
 
         self.queue.submit(Some(encoder.finish()));
