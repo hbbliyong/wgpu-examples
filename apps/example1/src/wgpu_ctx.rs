@@ -107,7 +107,7 @@ impl<'window> WgpuCtx<'window> {
         });
 
         // let img = RgbaImg::new("assets/example-img.png").unwrap();
-        let diffuse_bytes = include_bytes!("../assets/example-img.png");
+        let diffuse_bytes = include_bytes!("./../assets/example-img.png");
         // let texture_size = wgpu::Extent3d {
         //     width: img.width,
         //     height: img.height,

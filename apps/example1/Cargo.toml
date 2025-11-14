@@ -1,0 +1,22 @@
+[package]
+name = "wgpu_01"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow.workspace = true
+bytemuck.workspace = true
+env_logger.workspace = true
+
+glam.workspace = true
+image.workspace = true
+log.workspace = true
+pollster.workspace = true
+tobj.workspace = true
+wgpu.workspace = true
+winit.workspace = true
+
+[build-dependencies]
+
+anyhow.workspace = true
+fs_extra.workspace = true

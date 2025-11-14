@@ -1,236 +1,219 @@
-[INFO wgpu_01::wgpu_ctx] 找到 4 个图形适配器:
-[INFO wgpu_01::wgpu_ctx] 1. 名称: NVIDIA GeForce RTX 2080 with Max-Q Design
-[INFO wgpu_01::wgpu_ctx]    后端: Vulkan
-[INFO wgpu_01::wgpu_ctx]    设备类型: DiscreteGpu
-[INFO wgpu_01::wgpu_ctx]    ---
-[INFO wgpu_01::wgpu_ctx] 2. 名称: NVIDIA GeForce RTX 2080 with Max-Q Design
-[INFO wgpu_01::wgpu_ctx]    后端: Dx12
-[INFO wgpu_01::wgpu_ctx]    设备类型: DiscreteGpu
-[INFO wgpu_01::wgpu_ctx]    ---
-[INFO wgpu_01::wgpu_ctx] 3. 名称: Microsoft Basic Render Driver
-[INFO wgpu_01::wgpu_ctx]    后端: Dx12
-[INFO wgpu_01::wgpu_ctx]    设备类型: Cpu
-[INFO wgpu_01::wgpu_ctx]    ---
-[INFO wgpu_01::wgpu_ctx] 4. 名称: NVIDIA GeForce RTX 2080 with Max-Q Design/PCIe/SSE2
-[INFO wgpu_01::wgpu_ctx]    后端: Gl
-[INFO wgpu_01::wgpu_ctx]    设备类型: Other
-[INFO wgpu_01::wgpu_ctx]    ---
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	No valid vk_loader_settings.json file found, no loader settings will be active
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	windows_get_app_package_manifest_path: Failed to find mapping layers packages by family name
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	Checking for Layer Manifest files in Registry at HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\ImplicitLayers
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	windows_add_json_entry: Located json file "C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\nv-vk64.json" from PnP registry: E
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	Found no registry files in HKEY_CURRENT_USER\SOFTWARE\Khronos\Vulkan\ImplicitLayers
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	Found manifest file C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\nv-vk64.json (file version 1.0.1)
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	Checking for Layer Manifest files in Registry at HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\ExplicitLayers
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	windows_get_device_registry_files: opening device PCI\VEN_10DE&DEV_1ED0&SUBSYS_8600103C&REV_A1\4&218f854&0&0008
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	windows_get_device_registry_entry: Device ID(2) Does not contain a value for "VulkanExplicitLayers"
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	windows_get_device_registry_files: Opening child device 3 - DISPLAY\DELD0C2\5&AD879BB&0&UID4354
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [DEBUG wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	windows_get_device_registry_files: GUID for 3 is not SoftwareComponent skipping
-[DEBUG wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[DEBUG wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	windows_get_device_registry_files: Opening child device 4 - DISPLAY\AUO82ED\5&AD879BB&0&UID4355
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [DEBUG wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	windows_get_device_registry_files: GUID for 4 is not SoftwareComponent skipping
-[DEBUG wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[DEBUG wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	windows_get_device_registry_files: found no registry files
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	Located json file "C:\VulkanSDK\1.4.321.1\Bin\VkLayer_api_dump.json" from registry "HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\ExplicitLayers"
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	Located json file "C:\VulkanSDK\1.4.321.1\Bin\VkLayer_gfxreconstruct.json" from registry "HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\ExplicitLayers"
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	Located json file "C:\VulkanSDK\1.4.321.1\Bin\VkLayer_khronos_synchronization2.json" from registry "HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\ExplicitLayers"
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	Located json file "C:\VulkanSDK\1.4.321.1\Bin\VkLayer_khronos_validation.json" from registry "HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\ExplicitLayers"
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	Located json file "C:\VulkanSDK\1.4.321.1\Bin\VkLayer_monitor.json" from registry "HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\ExplicitLayers"
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	Located json file "C:\VulkanSDK\1.4.321.1\Bin\VkLayer_screenshot.json" from registry "HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\ExplicitLayers"
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	Located json file "C:\VulkanSDK\1.4.321.1\Bin\VkLayer_khronos_profiles.json" from registry "HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\ExplicitLayers"
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	Located json file "C:\VulkanSDK\1.4.321.1\Bin\VkLayer_khronos_shader_object.json" from registry "HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\ExplicitLayers"
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	Located json file "C:\VulkanSDK\1.4.321.1\Bin\VkLayer_crash_diagnostic.json" from registry "HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\ExplicitLayers"
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	Found manifest file C:\VulkanSDK\1.4.321.1\Bin\VkLayer_api_dump.json (file version 1.2.0)
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	Found manifest file C:\VulkanSDK\1.4.321.1\Bin\VkLayer_gfxreconstruct.json (file version 1.2.0)
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	Found manifest file C:\VulkanSDK\1.4.321.1\Bin\VkLayer_khronos_synchronization2.json (file version 1.2.0)
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	Found manifest file C:\VulkanSDK\1.4.321.1\Bin\VkLayer_khronos_validation.json (file version 1.2.0)
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	Found manifest file C:\VulkanSDK\1.4.321.1\Bin\VkLayer_monitor.json (file version 1.0.0)
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	Found manifest file C:\VulkanSDK\1.4.321.1\Bin\VkLayer_screenshot.json (file version 1.2.0)
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	Found manifest file C:\VulkanSDK\1.4.321.1\Bin\VkLayer_khronos_profiles.json (file version 1.2.1)
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	Found manifest file C:\VulkanSDK\1.4.321.1\Bin\VkLayer_khronos_shader_object.json (file version 1.2.0)
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	Found manifest file C:\VulkanSDK\1.4.321.1\Bin\VkLayer_crash_diagnostic.json (file version 1.2.0)
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	windows_get_app_package_manifest_path: Failed to find mapping layers packages by family name
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	Checking for Driver Manifest files in Registry at HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\Drivers
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	windows_add_json_entry: Located json file "C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\nv-vk64.json" from PnP registry: E
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	Found no registry files in HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\Drivers
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	Found ICD manifest file C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\nv-vk64.json, version 1.0.1
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [DEBUG wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	Searching for ICD drivers named .\nvoglv64.dll
-[DEBUG wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[DEBUG wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [DEBUG wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	Loading layer library C:\VulkanSDK\1.4.321.1\Bin\.\VkLayer_khronos_validation.dll
-[DEBUG wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[DEBUG wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	Insert instance layer "VK_LAYER_KHRONOS_validation" (C:\VulkanSDK\1.4.321.1\Bin\.\VkLayer_khronos_validation.dll)
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [DEBUG wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	Loading layer library C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\.\nvoglv64.dll
-[DEBUG wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[DEBUG wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	Insert instance layer "VK_LAYER_NV_present" (C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\.\nvoglv64.dll)
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [DEBUG wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	Loading layer library C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\.\nvoglv64.dll
-[DEBUG wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[DEBUG wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	Insert instance layer "VK_LAYER_NV_optimus" (C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\.\nvoglv64.dll)
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	vkCreateInstance layer callstack setup to:
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	   <Application>
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	     ||
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	   <Loader>
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	     ||
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	   VK_LAYER_NV_optimus
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	           Type: Implicit
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	           Enabled By: Implicit Layer
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	               Disable Env Var:  DISABLE_LAYER_NV_OPTIMUS_1
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	           Manifest: C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\nv-vk64.json
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	           Library:  C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\.\nvoglv64.dll
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	     ||
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	   VK_LAYER_NV_present
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	           Type: Implicit
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	           Enabled By: Implicit Layer
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	               Disable Env Var:  DISABLE_LAYER_NV_GR2608_1
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	           Manifest: C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\nv-vk64.json
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	           Library:  C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\.\nvoglv64.dll
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	     ||
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	   VK_LAYER_KHRONOS_validation
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	           Type: Explicit
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	           Enabled By: By the Application
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	           Manifest: C:\VulkanSDK\1.4.321.1\Bin\VkLayer_khronos_validation.json
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	           Library:  C:\VulkanSDK\1.4.321.1\Bin\.\VkLayer_khronos_validation.dll
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	     ||
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	   <Drivers>
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] VALIDATION [WARNING-CreateInstance-status-message (0x23dfd876)]
 	vkCreateInstance(): Khronos Validation Layer Active:
     Current Enables: VK_VALIDATION_FEATURE_ENABLE_SYNCHRONIZATION_VALIDATION_EXT.
     Current Disables: None.
 
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [DEBUG wgpu_hal::vulkan::instance] Instance version: 0x404135
 [INFO wgpu_hal::vulkan::instance] Enabling debug utils
 [DEBUG wgpu_hal::vulkan::instance] Enabling device properties2
@@ -239,842 +222,413 @@
 [DEBUG wgpu_core::instance] Instance::new: created Dx12 backend
 [DEBUG wgpu_hal::gles::wgl] Enabling GL debug output
 [DEBUG wgpu_core::instance] Instance::new: created Gl backend
-[DEBUG wgpu_core::instance] Adapter AdapterInfo { name: "NVIDIA GeForce RTX 2080 with Max-Q Design", vendor: 4318, device: 7888, device_type: DiscreteGpu, driver: "NVIDIA", driver_info: "581.29", backend: Vulkan }
-[DEBUG wgpu_core::instance] Adapter AdapterInfo { name: "NVIDIA GeForce RTX 2080 with Max-Q Design", vendor: 4318, device: 7888, device_type: DiscreteGpu, driver: "32.0.15.8129", driver_info: "", backend: Dx12 }
-[DEBUG wgpu_core::instance] Adapter AdapterInfo { name: "Microsoft Basic Render Driver", vendor: 5140, device: 140, device_type: Cpu, driver: "10.0.19041.5794", driver_info: "", backend: Dx12 }
 [DEBUG wgpu_hal::gles::adapter] Vendor: NVIDIA Corporation
 [DEBUG wgpu_hal::gles::adapter] Renderer: NVIDIA GeForce RTX 2080 with Max-Q Design/PCIe/SSE2
 [DEBUG wgpu_hal::gles::adapter] Version: 4.6.0 NVIDIA 581.29
 [DEBUG wgpu_hal::gles::adapter] SL version: 4.60 NVIDIA
 [DEBUG wgpu_hal::gles::adapter] Supported GL Extensions: {
-    "GL_KHR_debug",
-    "GL_NV_multisample_filter_hint",
-    "GL_ARB_texture_mirrored_repeat",
-    "GL_ARB_vertex_shader",
-    "GL_NV_fragment_coverage_to_color",
-    "GL_NV_shader_atomic_fp16_vector",
-    "GL_NV_texture_rectangle",
-    "GL_ARB_provoking_vertex",
-    "GL_EXT_window_rectangles",
-    "GL_ARB_debug_output",
-    "GL_ARB_transform_feedback2",
-    "GL_NV_vertex_program2_option",
-    "GL_IBM_texture_mirrored_repeat",
-    "GL_ARB_fragment_layer_viewport",
-    "GL_ARB_shader_image_size",
-    "GL_ARB_occlusion_query",
-    "GL_ARB_direct_state_access",
-    "GL_EXT_rescale_normal",
     "GL_ARB_shading_language_100",
-    "GL_EXT_texture_compression_s3tc",
-    "GL_EXT_texture_object",
-    "GL_ARB_imaging",
-    "GL_ARB_stencil_texturing",
-    "GL_EXT_gpu_program_parameters",
-    "GL_ARB_shader_precision",
-    "GL_ARB_texture_cube_map",
-    "GL_EXT_texture_shared_exponent",
-    "GL_EXT_texture_sRGB",
-    "GL_SGIX_depth_texture",
-    "GL_EXT_raster_multisample",
-    "GL_ARB_copy_buffer",
-    "GL_ARB_robust_buffer_access_behavior",
-    "GL_ARB_transform_feedback3",
-    "GL_ARB_sampler_objects",
-    "GL_NV_copy_image",
-    "GL_EXT_secondary_color",
-    "GL_EXT_sparse_texture2",
-    "GL_NV_half_float",
-    "GL_ARB_map_buffer_alignment",
-    "GL_EXT_gpu_shader4",
-    "GL_NV_packed_depth_stencil",
-    "GL_SGIS_generate_mipmap",
-    "GL_ARB_shader_viewport_layer_array",
-    "GL_EXT_framebuffer_sRGB",
-    "GL_EXT_texture_edge_clamp",
-    "GL_EXT_texture_compression_dxt1",
-    "GL_EXT_texture_sRGB_R8",
-    "GL_NV_bindless_multi_draw_indirect_count",
-    "GL_EXT_blend_subtract",
-    "GL_EXT_framebuffer_object",
-    "GL_ARB_conditional_render_inverted",
-    "GL_ARB_tessellation_shader",
-    "GL_ARB_texture_buffer_object_rgb32",
-    "GL_NV_compute_shader_derivatives",
-    "GL_NV_framebuffer_mixed_samples",
-    "GL_ARB_robustness",
-    "GL_EXT_stencil_wrap",
-    "GL_NV_gpu_program_fp64",
-    "GL_ARB_vertex_program",
-    "GL_NV_gpu_program4",
-    "GL_NVX_conditional_render",
-    "GL_NV_transform_feedback2",
-    "GL_ARB_half_float_vertex",
-    "GL_ARB_texture_barrier",
-    "GL_ARB_texture_filter_anisotropic",
-    "GL_NV_bindless_multi_draw_indirect",
-    "GL_NV_bindless_texture",
-    "GL_NV_register_combiners",
-    "GL_ARB_base_instance",
-    "GL_ARB_texture_non_power_of_two",
-    "GL_ARB_vertex_attrib_64bit",
-    "GL_EXT_framebuffer_multisample_blit_scaled",
-    "GL_NV_gpu_shader5",
-    "GL_ARB_conservative_depth",
-    "GL_ARB_texture_rg",
-    "GL_EXT_shader_image_load_store",
-    "GL_ARB_shading_language_420pack",
-    "GL_NV_vertex_program3",
-    "GL_NVX_gpu_memory_info",
-    "GL_ARB_shader_atomic_counter_ops",
-    "GL_EXT_texture_storage",
-    "GL_EXT_texture_swizzle",
-    "GL_ARB_compatibility",
-    "GL_NV_fence",
-    "GL_ARB_draw_buffers_blend",
-    "GL_NV_gpu_program_multiview",
-    "GL_ARB_shading_language_packing",
-    "GL_NV_shader_buffer_load",
-    "GL_ATI_texture_mirror_once",
-    "GL_NV_point_sprite",
-    "GL_EXT_fog_coord",
-    "GL_KHR_shader_subgroup",
-    "GL_NV_texture_shader2",
-    "GL_ARB_shader_storage_buffer_object",
-    "GL_ARB_vertex_type_10f_11f_11f_rev",
-    "GL_EXT_post_depth_coverage",
-    "GL_EXT_texture_shadow_lod",
-    "GL_NV_copy_depth_to_color",
-    "GL_NV_shader_atomic_int64",
-    "GL_ARB_shader_group_vote",
-    "GL_ARB_pixel_buffer_object",
-    "GL_ARB_draw_buffers",
-    "GL_ARB_texture_buffer_object",
+    "GL_EXT_draw_instanced",
+    "GL_EXT_shader_integer_mix",
     "GL_EXT_transform_feedback2",
-    "GL_EXT_texture_sRGB_decode",
-    "GL_ARB_clip_control",
-    "GL_NV_depth_clamp",
-    "GL_ARB_pipeline_statistics_query",
-    "GL_EXT_blend_func_separate",
-    "GL_NV_alpha_to_coverage_dither_control",
-    "GL_ARB_geometry_shader4",
-    "GL_ARB_separate_shader_objects",
-    "GL_NVX_progress_fence",
-    "GL_NV_draw_texture",
-    "GL_NV_conservative_raster_pre_snap_triangles",
-    "GL_SUN_slice_accum",
-    "GL_ARB_gl_spirv",
-    "GL_EXT_multi_draw_arrays",
-    "GL_ARB_texture_rectangle",
-    "GL_EXT_texture_integer",
-    "GL_NV_depth_buffer_float",
+    "GL_NV_texgen_reflection",
     "GL_ARB_texture_query_levels",
-    "GL_ARB_derivative_control",
-    "GL_ARB_map_buffer_range",
-    "GL_ARB_shader_texture_lod",
-    "GL_ARB_arrays_of_arrays",
-    "GL_EXT_framebuffer_multisample",
-    "GL_EXT_multiview_texture_multisample",
-    "GL_EXT_vertex_array_bgra",
-    "GL_NV_mesh_shader",
-    "GL_NV_shader_subgroup_partitioned",
-    "GL_ARB_copy_image",
-    "GL_ARB_depth_buffer_float",
-    "GL_ARB_seamless_cube_map",
-    "GL_ARB_shadow",
-    "GL_EXT_geometry_shader4",
-    "GL_NV_command_list",
-    "GL_NV_ES1_1_compatibility",
-    "GL_ARB_sparse_texture_clamp",
-    "GL_ARB_shader_objects",
-    "GL_NV_internalformat_sample_query",
-    "GL_NV_parameter_buffer_object",
-    "GL_NV_fragment_shader_interlock",
-    "GL_EXT_texture_filter_anisotropic",
-    "GL_NV_timeline_semaphore",
-    "GL_NV_gpu_program5",
-    "GL_NV_stereo_view_rendering",
-    "GL_ARB_texture_compression_bptc",
-    "GL_NV_viewport_array2",
-    "GL_ARB_vertex_type_2_10_10_10_rev",
-    "GL_ARB_point_parameters",
-    "GL_EXT_draw_range_elements",
-    "GL_ARB_spirv_extensions",
-    "GL_EXT_texture_filter_minmax",
-    "GL_NVX_linked_gpu_multicast",
-    "GL_NV_shader_thread_group",
-    "GL_EXT_shadow_funcs",
-    "GL_NV_shader_atomic_counters",
-    "GL_KHR_blend_equation_advanced_coherent",
-    "GL_ARB_query_buffer_object",
-    "GL_SGIS_texture_lod",
-    "GL_NV_fragment_program_option",
-    "WGL_EXT_swap_control",
-    "GL_ARB_fragment_program_shadow",
-    "GL_NV_conservative_raster_underestimation",
-    "GL_ARB_shader_clock",
-    "GL_ARB_ES2_compatibility",
-    "GL_NV_transform_feedback",
-    "GL_NV_shader_thread_shuffle",
-    "GL_ARB_shader_draw_parameters",
-    "GL_ARB_texture_env_crossbar",
-    "GL_ARB_vertex_array_bgra",
-    "GL_EXT_blend_minmax",
-    "GL_NV_clip_space_w_scaling",
-    "GL_ARB_texture_storage",
-    "GL_NV_scissor_exclusive",
-    "GL_NV_blend_square",
-    "GL_NV_light_max_exponent",
-    "GL_EXT_texture_buffer_object",
-    "GL_ARB_gpu_shader_int64",
-    "GL_NV_shader_atomic_float",
-    "GL_ARB_polygon_offset_clamp",
-    "GL_ARB_instanced_arrays",
-    "GL_ARB_clear_texture",
-    "GL_NVX_gpu_multicast2",
-    "GL_ARB_vertex_array_object",
-    "GL_EXT_provoking_vertex",
-    "GL_ARB_sample_shading",
-    "GL_EXT_stencil_two_side",
-    "GL_ARB_color_buffer_float",
-    "GL_NV_vertex_attrib_integer_64bit",
-    "GL_EXT_texture_lod_bias",
-    "GL_ARB_internalformat_query2",
-    "GL_EXT_polygon_offset_clamp",
-    "GL_NV_shader_storage_buffer_object",
-    "GL_ARB_half_float_pixel",
-    "GL_OVR_multiview",
-    "GL_ARB_fragment_shader",
-    "GL_S3_s3tc",
-    "GL_ARB_internalformat_query",
-    "GL_EXT_import_sync_object",
-    "GL_KHR_robustness",
-    "GL_NV_query_resource_tag",
-    "GL_NV_texture_compression_vtc",
-    "GL_ARB_transform_feedback_overflow_query",
-    "GL_NV_texture_shader",
-    "GL_ARB_multitexture",
-    "GL_ARB_texture_compression",
-    "GL_NV_compute_program5",
-    "GL_NV_fragment_shader_barycentric",
-    "GL_ARB_enhanced_layouts",
-    "GL_ARB_indirect_parameters",
-    "GL_NV_draw_vulkan_image",
-    "GL_NV_texture_shader3",
-    "GL_ARB_compressed_texture_pixel_storage",
-    "GL_ARB_fragment_program",
-    "GL_NV_sample_locations",
-    "GL_ARB_framebuffer_sRGB",
-    "GL_ARB_sparse_texture2",
-    "GL_AMD_vertex_shader_layer",
-    "GL_ARB_sparse_texture",
-    "GL_NV_vertex_program",
-    "GL_WIN_swap_hint",
-    "GL_EXT_vertex_array",
-    "GL_ARB_explicit_attrib_location",
-    "GL_ARB_compute_variable_group_size",
-    "GL_ARB_texture_env_add",
-    "GL_EXT_vertex_attrib_64bit",
-    "GL_ARB_get_program_binary",
-    "GL_ARB_ES3_2_compatibility",
-    "GL_ARB_texture_mirror_clamp_to_edge",
-    "GL_NV_shader_atomic_float64",
-    "GL_ARB_ES3_1_compatibility",
-    "GL_ARB_texture_compression_rgtc",
-    "GL_NV_texture_env_combine4",
-    "GL_NV_fragment_program2",
-    "GL_ARB_texture_cube_map_array",
     "GL_NV_gpu_program4_1",
-    "GL_ARB_clear_buffer_object",
-    "GL_ARB_transform_feedback_instanced",
-    "GL_EXT_texture_env_add",
-    "GL_EXT_semaphore_win32",
-    "GL_ATI_draw_buffers",
-    "GL_NV_conditional_render",
-    "GL_NV_geometry_shader_passthrough",
-    "GL_ARB_sync",
-    "GL_ARB_blend_func_extended",
-    "GL_EXT_packed_depth_stencil",
-    "GL_ARB_fragment_shader_interlock",
-    "GL_ARB_get_texture_sub_image",
-    "GL_ARB_uniform_buffer_object",
+    "GL_EXT_polygon_offset_clamp",
+    "GL_NV_internalformat_sample_query",
+    "GL_NV_texture_compression_vtc",
+    "GL_EXT_blend_func_separate",
+    "GL_ARB_texture_mirror_clamp_to_edge",
+    "GL_NV_command_list",
+    "GL_NV_uniform_buffer_std430_layout",
+    "GL_NV_fragment_program_option",
+    "GL_NV_vertex_program1_1",
+    "GL_NVX_conditional_render",
+    "GL_EXT_gpu_shader4",
+    "GL_KHR_blend_equation_advanced",
+    "GL_ARB_point_parameters",
+    "GL_SGIS_texture_lod",
+    "GL_OVR_multiview2",
+    "GL_ARB_viewport_array",
+    "GL_ARB_cull_distance",
+    "GL_WIN_swap_hint",
+    "GL_ARB_depth_buffer_float",
+    "GL_ARB_instanced_arrays",
+    "GL_EXT_direct_state_access",
+    "GL_ARB_explicit_attrib_location",
+    "GL_KHR_no_error",
+    "GL_NV_feature_query",
+    "GL_KHR_blend_equation_advanced_coherent",
+    "GL_ARB_texture_buffer_range",
+    "GL_SGIX_shadow",
+    "GL_ARB_vertex_attrib_binding",
+    "GL_NV_shader_storage_buffer_object",
+    "GL_ARB_texture_storage_multisample",
+    "GL_EXT_depth_bounds_test",
+    "GL_EXT_fog_coord",
+    "GL_EXT_texture_compression_latc",
+    "GL_EXT_texture_compression_rgtc",
+    "GL_ARB_vertex_array_object",
     "GL_IBM_rasterpos_clip",
     "GL_KHR_context_flush_control",
-    "GL_ARB_cull_distance",
-    "GL_AMD_seamless_cubemap_per_texture",
-    "GL_ARB_sample_locations",
-    "GL_ARB_texture_border_clamp",
-    "GL_ARB_shader_atomic_counters",
-    "GL_ARB_window_pos",
-    "GL_EXT_bindable_uniform",
-    "GL_ARB_program_interface_query",
-    "GL_EXT_draw_buffers2",
-    "GL_ARB_multisample",
-    "GL_ARB_gpu_shader5",
-    "GL_ARB_texture_float",
-    "GL_EXT_abgr",
-    "GL_EXT_texture_lod",
-    "GL_ARB_depth_clamp",
-    "GL_ARB_texture_query_lod",
-    "GL_NV_blend_equation_advanced",
-    "GL_ARB_texture_swizzle",
-    "GL_NV_blend_equation_advanced_coherent",
-    "GL_NV_conservative_raster",
-    "GL_ARB_viewport_array",
-    "GL_NV_fill_rectangle",
-    "GL_ARB_framebuffer_object",
-    "GL_NV_memory_attachment",
-    "GL_KHR_robust_buffer_access_behavior",
-    "GL_EXT_Cg_shader",
-    "GL_KHR_parallel_shader_compile",
-    "GL_NV_sample_mask_override_coverage",
-    "GL_EXT_shader_integer_mix",
-    "GL_ARB_sparse_buffer",
-    "GL_NV_uniform_buffer_unified_memory",
-    "GL_NV_viewport_swizzle",
-    "GL_KHR_blend_equation_advanced",
-    "GL_EXT_blend_equation_separate",
-    "GL_ARB_transpose_matrix",
-    "GL_NV_occlusion_query",
-    "GL_ARB_explicit_uniform_location",
-    "GL_ARB_parallel_shader_compile",
-    "GL_NV_pixel_data_range",
-    "GL_NV_path_rendering",
-    "GL_NV_primitive_restart",
-    "GL_ARB_ES3_compatibility",
-    "GL_KTX_buffer_region",
-    "GL_NV_texture_barrier",
-    "GL_NV_float_buffer",
-    "GL_EXT_win32_keyed_mutex",
     "GL_ARB_post_depth_coverage",
-    "GL_KHR_no_error",
-    "GL_NV_vertex_array_range2",
-    "GL_NV_vertex_buffer_unified_memory",
-    "GL_NV_vertex_array_range",
-    "GL_EXT_point_parameters",
-    "GL_NV_feature_query",
-    "GL_EXT_separate_specular_color",
-    "GL_NVX_multigpu_info",
-    "GL_ARB_texture_buffer_range",
-    "GL_EXT_shader_image_load_formatted",
-    "GL_NV_memory_object_sparse",
-    "GL_NV_query_resource",
-    "GL_EXT_texture3D",
-    "GL_ARB_multi_bind",
-    "GL_NV_shader_texture_footprint",
-    "GL_ARB_shading_language_include",
-    "GL_NV_framebuffer_multisample_coverage",
-    "GL_AMD_multi_draw_indirect",
-    "GL_ARB_multi_draw_indirect",
-    "GL_ARB_framebuffer_no_attachments",
-    "GL_ARB_occlusion_query2",
-    "GL_ARB_timer_query",
-    "GL_EXT_semaphore",
-    "GL_AMD_vertex_shader_viewport_index",
-    "GL_ARB_shader_image_load_store",
-    "GL_EXT_texture_cube_map",
-    "GL_NV_texgen_reflection",
-    "GL_ARB_texture_rgb10_a2ui",
-    "GL_ARB_gpu_shader_fp64",
-    "GL_NV_vertex_program1_1",
-    "GL_NVX_nvenc_interop",
-    "GL_SGIX_shadow",
-    "GL_EXT_packed_float",
-    "GL_NV_multisample_coverage",
-    "GL_ARB_texture_filter_minmax",
-    "GL_NV_shading_rate_image",
-    "GL_ARB_draw_elements_base_vertex",
-    "GL_ARB_vertex_attrib_binding",
-    "GL_NV_explicit_multisample",
-    "GL_EXT_depth_bounds_test",
-    "GL_ARB_shader_texture_image_samples",
-    "GL_EXT_framebuffer_blit",
-    "GL_NV_uniform_buffer_std430_layout",
-    "GL_ARB_texture_env_dot3",
-    "GL_EXT_compiled_vertex_array",
-    "GL_ARB_point_sprite",
-    "GL_EXTX_framebuffer_mixed_formats",
-    "GL_EXT_packed_pixels",
-    "GL_EXT_pixel_buffer_object",
-    "GL_EXT_texture_compression_latc",
-    "GL_EXT_texture_env_dot3",
-    "GL_NV_parameter_buffer_object2",
-    "GL_ATI_texture_float",
-    "GL_ARB_draw_indirect",
-    "GL_ARB_buffer_storage",
-    "GL_ARB_texture_gather",
-    "GL_EXT_texture_array",
-    "GL_EXT_timer_query",
-    "GL_ARB_seamless_cubemap_per_texture",
-    "GL_ARB_invalidate_subdata",
-    "GL_ARB_texture_storage_multisample",
-    "GL_ARB_shader_subroutine",
-    "GL_EXT_direct_state_access",
-    "GL_NV_fragment_program",
-    "GL_NV_gpu_program5_mem_extended",
-    "GL_NV_texture_multisample",
-    "GL_EXT_memory_object_win32",
-    "GL_NV_representative_fragment_test",
-    "GL_ARB_vertex_buffer_object",
-    "GL_EXT_draw_instanced",
-    "GL_NVX_blend_equation_advanced_multi_draw_buffers",
-    "GL_NV_fog_distance",
-    "GL_ARB_draw_instanced",
-    "GL_ARB_texture_view",
-    "GL_EXT_memory_object",
-    "GL_NV_texture_rectangle_compressed",
-    "GL_NV_conservative_raster_dilate",
-    "GL_NV_gpu_multicast",
-    "GL_NV_path_rendering_shared_edge",
-    "GL_OVR_multiview2",
-    "GL_EXT_texture_mirror_clamp",
-    "GL_NV_conservative_raster_pre_snap",
-    "GL_NV_ES3_1_compatibility",
-    "GL_EXT_texture_env_combine",
-    "GL_ARB_shader_ballot",
     "GL_ARB_texture_multisample",
-    "GL_NV_register_combiners2",
-    "GL_EXT_separate_shader_objects",
-    "GL_ARB_shader_bit_encoding",
-    "GL_ARB_bindless_texture",
-    "GL_ARB_compute_shader",
-    "GL_ARB_texture_stencil8",
-    "GL_EXT_blend_color",
-    "GL_NV_geometry_shader4",
-    "GL_NV_vertex_program2",
-    "GL_ARB_texture_env_combine",
-    "GL_NV_blend_minmax_factor",
-    "GL_EXT_texture_compression_rgtc",
-    "GL_EXT_multiview_timer_query",
-    "GL_EXT_bgra",
-    "GL_ARB_fragment_coord_conventions",
+    "GL_EXT_bindable_uniform",
+    "GL_EXT_raster_multisample",
+    "GL_ARB_shader_storage_buffer_object",
+    "GL_EXT_rescale_normal",
+    "GL_NV_shader_atomic_float64",
+    "GL_NV_transform_feedback2",
+    "GL_ARB_vertex_array_bgra",
+    "GL_EXT_shadow_funcs",
+    "GL_ARB_texture_cube_map",
+    "GL_ARB_invalidate_subdata",
+    "GL_EXT_texture3D",
+    "GL_NV_gpu_program4",
+    "GL_NV_light_max_exponent",
+    "GL_NV_parameter_buffer_object",
+    "GL_NV_vertex_attrib_integer_64bit",
+    "GL_ARB_clear_texture",
+    "GL_EXT_texture_buffer_object",
+    "GL_ARB_buffer_storage",
+    "GL_ARB_blend_func_extended",
+    "GL_NV_fill_rectangle",
+    "GL_SUN_slice_accum",
+    "GL_ARB_clip_control",
+    "GL_ARB_shadow",
+    "GL_ARB_stencil_texturing",
+    "GL_ARB_vertex_attrib_64bit",
+    "GL_ARB_texture_env_add",
+    "GL_S3_s3tc",
+    "GL_EXT_texture_env_dot3",
+    "GL_EXT_texture_storage",
+    "GL_EXT_vertex_attrib_64bit",
+    "GL_ARB_transform_feedback_overflow_query",
+    "GL_NVX_multigpu_info",
+    "GL_ARB_shading_language_packing",
+    "GL_ARB_multitexture",
+    "GL_NVX_nvenc_interop",
+    "GL_ARB_geometry_shader4",
+    "GL_NV_vertex_array_range",
+    "GL_ARB_transform_feedback3",
+    "GL_NV_primitive_restart",
+    "GL_EXT_texture_cube_map",
+    "GL_NV_gpu_program5",
+    "GL_ARB_robust_buffer_access_behavior",
+    "GL_NV_shader_atomic_int64",
+    "GL_NV_fragment_shader_barycentric",
+    "GL_ATI_texture_mirror_once",
+    "GL_NV_framebuffer_multisample_coverage",
+    "GL_ARB_sparse_texture2",
+    "GL_EXT_import_sync_object",
+    "GL_ARB_parallel_shader_compile",
     "GL_ARB_depth_texture",
-}
-[DEBUG wgpu_core::instance] Adapter AdapterInfo { name: "NVIDIA GeForce RTX 2080 with Max-Q Design/PCIe/SSE2", vendor: 4318, device: 0, device_type: Other, driver: "", driver_info: "4.6.0 NVIDIA 581.29", backend: Gl }
-[INFO wgpu_01::wgpu_ctx] 找到 4 个图形适配器:
-[INFO wgpu_01::wgpu_ctx] 1. 名称: NVIDIA GeForce RTX 2080 with Max-Q Design
-[INFO wgpu_01::wgpu_ctx]    后端: Vulkan
-[INFO wgpu_01::wgpu_ctx]    设备类型: DiscreteGpu
-[INFO wgpu_01::wgpu_ctx]    ---
-[INFO wgpu_01::wgpu_ctx] 2. 名称: NVIDIA GeForce RTX 2080 with Max-Q Design
-[INFO wgpu_01::wgpu_ctx]    后端: Dx12
-[INFO wgpu_01::wgpu_ctx]    设备类型: DiscreteGpu
-[INFO wgpu_01::wgpu_ctx]    ---
-[INFO wgpu_01::wgpu_ctx] 3. 名称: Microsoft Basic Render Driver
-[INFO wgpu_01::wgpu_ctx]    后端: Dx12
-[INFO wgpu_01::wgpu_ctx]    设备类型: Cpu
-[INFO wgpu_01::wgpu_ctx]    ---
-[INFO wgpu_01::wgpu_ctx] 4. 名称: NVIDIA GeForce RTX 2080 with Max-Q Design/PCIe/SSE2
-[INFO wgpu_01::wgpu_ctx]    后端: Gl
-[INFO wgpu_01::wgpu_ctx]    设备类型: Other
-[INFO wgpu_01::wgpu_ctx]    ---
-[DEBUG wgpu_hal::gles::adapter] Vendor: NVIDIA Corporation
-[DEBUG wgpu_hal::gles::adapter] Renderer: NVIDIA GeForce RTX 2080 with Max-Q Design/PCIe/SSE2
-[DEBUG wgpu_hal::gles::adapter] Version: 4.6.0 NVIDIA 581.29
-[DEBUG wgpu_hal::gles::adapter] SL version: 4.60 NVIDIA
-[DEBUG wgpu_hal::gles::adapter] Supported GL Extensions: {
-    "GL_KHR_debug",
-    "GL_NV_multisample_filter_hint",
-    "GL_ARB_texture_mirrored_repeat",
-    "GL_ARB_vertex_shader",
-    "GL_NV_fragment_coverage_to_color",
-    "GL_NV_shader_atomic_fp16_vector",
-    "GL_NV_texture_rectangle",
-    "GL_ARB_provoking_vertex",
+    "GL_ARB_map_buffer_range",
+    "GL_ARB_texture_buffer_object_rgb32",
+    "GL_ARB_texture_storage",
+    "GL_EXT_texture_shared_exponent",
+    "GL_EXT_vertex_array_bgra",
+    "GL_ARB_compute_variable_group_size",
+    "GL_EXT_vertex_array",
+    "GL_NV_point_sprite",
+    "GL_NV_transform_feedback",
+    "GL_ARB_robustness",
+    "GL_SGIX_depth_texture",
+    "GL_ARB_sampler_objects",
+    "GL_ARB_color_buffer_float",
+    "GL_ARB_texture_env_combine",
+    "GL_ARB_texture_gather",
+    "GL_EXT_shader_image_load_store",
+    "GL_NV_fog_distance",
+    "GL_EXT_blend_subtract",
+    "GL_NV_gpu_program5_mem_extended",
+    "GL_NV_gpu_shader5",
+    "GL_NV_shader_atomic_counters",
+    "GL_ARB_imaging",
+    "GL_ARB_ES2_compatibility",
+    "GL_ARB_half_float_pixel",
+    "GL_ARB_texture_border_clamp",
+    "GL_NV_compute_shader_derivatives",
+    "GL_ARB_texture_env_crossbar",
+    "GL_ARB_query_buffer_object",
+    "GL_NV_explicit_multisample",
+    "GL_NV_mesh_shader",
+    "GL_NV_packed_depth_stencil",
+    "GL_NV_vertex_program2",
+    "GL_SGIS_generate_mipmap",
+    "GL_EXT_memory_object",
+    "GL_NV_blend_minmax_factor",
+    "GL_KHR_robust_buffer_access_behavior",
+    "GL_ARB_draw_elements_base_vertex",
+    "GL_ARB_draw_instanced",
+    "GL_NV_path_rendering_shared_edge",
+    "GL_ARB_shader_image_load_store",
+    "GL_EXT_multiview_timer_query",
+    "GL_NV_draw_vulkan_image",
     "GL_EXT_window_rectangles",
+    "GL_ARB_transpose_matrix",
+    "GL_EXT_point_parameters",
+    "GL_NV_bindless_multi_draw_indirect_count",
+    "GL_NV_copy_depth_to_color",
+    "GL_ARB_indirect_parameters",
+    "GL_NV_shader_atomic_fp16_vector",
+    "GL_EXT_texture_env_add",
+    "GL_ARB_sparse_buffer",
+    "GL_EXTX_framebuffer_mixed_formats",
+    "GL_ARB_seamless_cubemap_per_texture",
+    "GL_ARB_copy_buffer",
+    "GL_KHR_debug",
+    "GL_EXT_blend_minmax",
+    "GL_NV_gpu_program_fp64",
+    "GL_KHR_robustness",
+    "GL_ARB_fragment_coord_conventions",
+    "GL_EXT_framebuffer_sRGB",
+    "GL_EXT_bgra",
+    "GL_EXT_post_depth_coverage",
+    "GL_ARB_texture_rgb10_a2ui",
+    "GL_AMD_vertex_shader_viewport_index",
+    "GL_ARB_occlusion_query2",
+    "GL_ARB_texture_cube_map_array",
+    "GL_EXT_texture_compression_dxt1",
+    "GL_EXT_texture_filter_anisotropic",
+    "GL_NV_ES1_1_compatibility",
+    "GL_NV_fragment_shader_interlock",
+    "GL_EXT_texture_object",
+    "GL_NV_parameter_buffer_object2",
+    "GL_ARB_get_texture_sub_image",
+    "GL_ARB_shader_draw_parameters",
+    "GL_NV_sample_mask_override_coverage",
+    "GL_NV_query_resource_tag",
+    "GL_KHR_parallel_shader_compile",
+    "GL_EXT_memory_object_win32",
+    "GL_EXT_texture_swizzle",
+    "GL_NV_bindless_texture",
+    "GL_EXT_provoking_vertex",
+    "GL_ARB_texture_mirrored_repeat",
+    "GL_EXT_draw_range_elements",
+    "GL_ARB_pipeline_statistics_query",
+    "GL_NV_pixel_data_range",
+    "GL_NV_vertex_program",
+    "GL_ARB_enhanced_layouts",
+    "GL_EXT_multi_draw_arrays",
+    "GL_EXT_separate_shader_objects",
+    "GL_ARB_fragment_program_shadow",
+    "GL_ARB_window_pos",
+    "GL_ARB_conditional_render_inverted",
+    "GL_ARB_framebuffer_sRGB",
+    "GL_ARB_explicit_uniform_location",
+    "GL_ARB_gpu_shader_int64",
+    "GL_NVX_blend_equation_advanced_multi_draw_buffers",
+    "GL_NV_scissor_exclusive",
+    "GL_NV_shader_thread_group",
+    "GL_NV_occlusion_query",
+    "GL_ARB_half_float_vertex",
+    "GL_EXT_semaphore_win32",
+    "GL_EXT_texture_integer",
+    "GL_NV_framebuffer_mixed_samples",
+    "GL_ARB_map_buffer_alignment",
+    "GL_EXT_blend_color",
+    "GL_NV_conservative_raster",
+    "GL_NV_shading_rate_image",
+    "GL_ARB_texture_filter_minmax",
+    "GL_EXT_packed_float",
+    "GL_NVX_linked_gpu_multicast",
+    "GL_NV_conservative_raster_dilate",
+    "GL_ARB_polygon_offset_clamp",
+    "GL_ARB_clear_buffer_object",
+    "GL_ARB_sparse_texture_clamp",
+    "GL_ARB_texture_rg",
+    "GL_ARB_sample_shading",
+    "GL_ARB_compute_shader",
+    "GL_NV_texture_env_combine4",
+    "GL_AMD_multi_draw_indirect",
+    "GL_ARB_vertex_shader",
+    "GL_EXT_gpu_program_parameters",
+    "GL_NV_compute_program5",
+    "GL_EXT_texture_sRGB",
+    "GL_ARB_shading_language_include",
+    "GL_EXT_win32_keyed_mutex",
+    "GL_ARB_point_sprite",
+    "GL_NV_conservative_raster_underestimation",
     "GL_ARB_debug_output",
     "GL_ARB_transform_feedback2",
-    "GL_NV_vertex_program2_option",
-    "GL_IBM_texture_mirrored_repeat",
-    "GL_ARB_fragment_layer_viewport",
-    "GL_ARB_shader_image_size",
-    "GL_ARB_occlusion_query",
-    "GL_ARB_direct_state_access",
-    "GL_EXT_rescale_normal",
-    "GL_ARB_shading_language_100",
-    "GL_EXT_texture_compression_s3tc",
-    "GL_EXT_texture_object",
-    "GL_ARB_imaging",
-    "GL_ARB_stencil_texturing",
-    "GL_EXT_gpu_program_parameters",
-    "GL_ARB_shader_precision",
-    "GL_ARB_texture_cube_map",
-    "GL_EXT_texture_shared_exponent",
-    "GL_EXT_texture_sRGB",
-    "GL_SGIX_depth_texture",
-    "GL_EXT_raster_multisample",
-    "GL_ARB_copy_buffer",
-    "GL_ARB_robust_buffer_access_behavior",
-    "GL_ARB_transform_feedback3",
-    "GL_ARB_sampler_objects",
-    "GL_NV_copy_image",
-    "GL_EXT_secondary_color",
-    "GL_EXT_sparse_texture2",
-    "GL_NV_half_float",
-    "GL_ARB_map_buffer_alignment",
-    "GL_EXT_gpu_shader4",
-    "GL_NV_packed_depth_stencil",
-    "GL_SGIS_generate_mipmap",
-    "GL_ARB_shader_viewport_layer_array",
-    "GL_EXT_framebuffer_sRGB",
-    "GL_EXT_texture_edge_clamp",
-    "GL_EXT_texture_compression_dxt1",
-    "GL_EXT_texture_sRGB_R8",
-    "GL_NV_bindless_multi_draw_indirect_count",
-    "GL_EXT_blend_subtract",
-    "GL_EXT_framebuffer_object",
-    "GL_ARB_conditional_render_inverted",
-    "GL_ARB_tessellation_shader",
-    "GL_ARB_texture_buffer_object_rgb32",
-    "GL_NV_compute_shader_derivatives",
-    "GL_NV_framebuffer_mixed_samples",
-    "GL_ARB_robustness",
-    "GL_EXT_stencil_wrap",
-    "GL_NV_gpu_program_fp64",
-    "GL_ARB_vertex_program",
-    "GL_NV_gpu_program4",
-    "GL_NVX_conditional_render",
-    "GL_NV_transform_feedback2",
-    "GL_ARB_half_float_vertex",
-    "GL_ARB_texture_barrier",
-    "GL_ARB_texture_filter_anisotropic",
-    "GL_NV_bindless_multi_draw_indirect",
-    "GL_NV_bindless_texture",
-    "GL_NV_register_combiners",
-    "GL_ARB_base_instance",
-    "GL_ARB_texture_non_power_of_two",
-    "GL_ARB_vertex_attrib_64bit",
-    "GL_EXT_framebuffer_multisample_blit_scaled",
-    "GL_NV_gpu_shader5",
-    "GL_ARB_conservative_depth",
-    "GL_ARB_texture_rg",
-    "GL_EXT_shader_image_load_store",
-    "GL_ARB_shading_language_420pack",
-    "GL_NV_vertex_program3",
-    "GL_NVX_gpu_memory_info",
-    "GL_ARB_shader_atomic_counter_ops",
-    "GL_EXT_texture_storage",
-    "GL_EXT_texture_swizzle",
-    "GL_ARB_compatibility",
-    "GL_NV_fence",
-    "GL_ARB_draw_buffers_blend",
-    "GL_NV_gpu_program_multiview",
-    "GL_ARB_shading_language_packing",
-    "GL_NV_shader_buffer_load",
-    "GL_ATI_texture_mirror_once",
-    "GL_NV_point_sprite",
-    "GL_EXT_fog_coord",
-    "GL_KHR_shader_subgroup",
-    "GL_NV_texture_shader2",
-    "GL_ARB_shader_storage_buffer_object",
-    "GL_ARB_vertex_type_10f_11f_11f_rev",
-    "GL_EXT_post_depth_coverage",
-    "GL_EXT_texture_shadow_lod",
-    "GL_NV_copy_depth_to_color",
-    "GL_NV_shader_atomic_int64",
-    "GL_ARB_shader_group_vote",
-    "GL_ARB_pixel_buffer_object",
-    "GL_ARB_draw_buffers",
-    "GL_ARB_texture_buffer_object",
-    "GL_EXT_transform_feedback2",
-    "GL_EXT_texture_sRGB_decode",
-    "GL_ARB_clip_control",
-    "GL_NV_depth_clamp",
-    "GL_ARB_pipeline_statistics_query",
-    "GL_EXT_blend_func_separate",
-    "GL_NV_alpha_to_coverage_dither_control",
-    "GL_ARB_geometry_shader4",
-    "GL_ARB_separate_shader_objects",
-    "GL_NVX_progress_fence",
-    "GL_NV_draw_texture",
-    "GL_NV_conservative_raster_pre_snap_triangles",
-    "GL_SUN_slice_accum",
-    "GL_ARB_gl_spirv",
-    "GL_EXT_multi_draw_arrays",
     "GL_ARB_texture_rectangle",
-    "GL_EXT_texture_integer",
-    "GL_NV_depth_buffer_float",
-    "GL_ARB_texture_query_levels",
-    "GL_ARB_derivative_control",
-    "GL_ARB_map_buffer_range",
-    "GL_ARB_shader_texture_lod",
-    "GL_ARB_arrays_of_arrays",
-    "GL_EXT_framebuffer_multisample",
-    "GL_EXT_multiview_texture_multisample",
-    "GL_EXT_vertex_array_bgra",
-    "GL_NV_mesh_shader",
-    "GL_NV_shader_subgroup_partitioned",
-    "GL_ARB_copy_image",
-    "GL_ARB_depth_buffer_float",
-    "GL_ARB_seamless_cube_map",
-    "GL_ARB_shadow",
-    "GL_EXT_geometry_shader4",
-    "GL_NV_command_list",
-    "GL_NV_ES1_1_compatibility",
-    "GL_ARB_sparse_texture_clamp",
-    "GL_ARB_shader_objects",
-    "GL_NV_internalformat_sample_query",
-    "GL_NV_parameter_buffer_object",
-    "GL_NV_fragment_shader_interlock",
-    "GL_EXT_texture_filter_anisotropic",
-    "GL_NV_timeline_semaphore",
-    "GL_NV_gpu_program5",
-    "GL_NV_stereo_view_rendering",
-    "GL_ARB_texture_compression_bptc",
-    "GL_NV_viewport_array2",
-    "GL_ARB_vertex_type_2_10_10_10_rev",
-    "GL_ARB_point_parameters",
-    "GL_EXT_draw_range_elements",
-    "GL_ARB_spirv_extensions",
-    "GL_EXT_texture_filter_minmax",
-    "GL_NVX_linked_gpu_multicast",
-    "GL_NV_shader_thread_group",
-    "GL_EXT_shadow_funcs",
-    "GL_NV_shader_atomic_counters",
-    "GL_KHR_blend_equation_advanced_coherent",
-    "GL_ARB_query_buffer_object",
-    "GL_SGIS_texture_lod",
-    "GL_NV_fragment_program_option",
-    "WGL_EXT_swap_control",
-    "GL_ARB_fragment_program_shadow",
-    "GL_NV_conservative_raster_underestimation",
-    "GL_ARB_shader_clock",
-    "GL_ARB_ES2_compatibility",
-    "GL_NV_transform_feedback",
-    "GL_NV_shader_thread_shuffle",
-    "GL_ARB_shader_draw_parameters",
-    "GL_ARB_texture_env_crossbar",
-    "GL_ARB_vertex_array_bgra",
-    "GL_EXT_blend_minmax",
-    "GL_NV_clip_space_w_scaling",
-    "GL_ARB_texture_storage",
-    "GL_NV_scissor_exclusive",
     "GL_NV_blend_square",
-    "GL_NV_light_max_exponent",
-    "GL_EXT_texture_buffer_object",
-    "GL_ARB_gpu_shader_int64",
-    "GL_NV_shader_atomic_float",
-    "GL_ARB_polygon_offset_clamp",
-    "GL_ARB_instanced_arrays",
-    "GL_ARB_clear_texture",
-    "GL_NVX_gpu_multicast2",
-    "GL_ARB_vertex_array_object",
-    "GL_EXT_provoking_vertex",
-    "GL_ARB_sample_shading",
-    "GL_EXT_stencil_two_side",
-    "GL_ARB_color_buffer_float",
-    "GL_NV_vertex_attrib_integer_64bit",
-    "GL_EXT_texture_lod_bias",
-    "GL_ARB_internalformat_query2",
-    "GL_EXT_polygon_offset_clamp",
-    "GL_NV_shader_storage_buffer_object",
-    "GL_ARB_half_float_pixel",
-    "GL_OVR_multiview",
-    "GL_ARB_fragment_shader",
-    "GL_S3_s3tc",
-    "GL_ARB_internalformat_query",
-    "GL_EXT_import_sync_object",
-    "GL_KHR_robustness",
-    "GL_NV_query_resource_tag",
-    "GL_NV_texture_compression_vtc",
-    "GL_ARB_transform_feedback_overflow_query",
-    "GL_NV_texture_shader",
-    "GL_ARB_multitexture",
-    "GL_ARB_texture_compression",
-    "GL_NV_compute_program5",
-    "GL_NV_fragment_shader_barycentric",
-    "GL_ARB_enhanced_layouts",
-    "GL_ARB_indirect_parameters",
-    "GL_NV_draw_vulkan_image",
-    "GL_NV_texture_shader3",
-    "GL_ARB_compressed_texture_pixel_storage",
-    "GL_ARB_fragment_program",
-    "GL_NV_sample_locations",
-    "GL_ARB_framebuffer_sRGB",
-    "GL_ARB_sparse_texture2",
-    "GL_AMD_vertex_shader_layer",
-    "GL_ARB_sparse_texture",
-    "GL_NV_vertex_program",
-    "GL_WIN_swap_hint",
-    "GL_EXT_vertex_array",
-    "GL_ARB_explicit_attrib_location",
-    "GL_ARB_compute_variable_group_size",
-    "GL_ARB_texture_env_add",
-    "GL_EXT_vertex_attrib_64bit",
-    "GL_ARB_get_program_binary",
-    "GL_ARB_ES3_2_compatibility",
-    "GL_ARB_texture_mirror_clamp_to_edge",
-    "GL_NV_shader_atomic_float64",
-    "GL_ARB_ES3_1_compatibility",
-    "GL_ARB_texture_compression_rgtc",
-    "GL_NV_texture_env_combine4",
-    "GL_NV_fragment_program2",
-    "GL_ARB_texture_cube_map_array",
-    "GL_NV_gpu_program4_1",
-    "GL_ARB_clear_buffer_object",
-    "GL_ARB_transform_feedback_instanced",
-    "GL_EXT_texture_env_add",
-    "GL_EXT_semaphore_win32",
-    "GL_ATI_draw_buffers",
-    "GL_NV_conditional_render",
-    "GL_NV_geometry_shader_passthrough",
-    "GL_ARB_sync",
-    "GL_ARB_blend_func_extended",
-    "GL_EXT_packed_depth_stencil",
-    "GL_ARB_fragment_shader_interlock",
-    "GL_ARB_get_texture_sub_image",
-    "GL_ARB_uniform_buffer_object",
-    "GL_IBM_rasterpos_clip",
-    "GL_KHR_context_flush_control",
-    "GL_ARB_cull_distance",
-    "GL_AMD_seamless_cubemap_per_texture",
-    "GL_ARB_sample_locations",
-    "GL_ARB_texture_border_clamp",
-    "GL_ARB_shader_atomic_counters",
-    "GL_ARB_window_pos",
-    "GL_EXT_bindable_uniform",
-    "GL_ARB_program_interface_query",
-    "GL_EXT_draw_buffers2",
-    "GL_ARB_multisample",
-    "GL_ARB_gpu_shader5",
-    "GL_ARB_texture_float",
-    "GL_EXT_abgr",
-    "GL_EXT_texture_lod",
-    "GL_ARB_depth_clamp",
-    "GL_ARB_texture_query_lod",
-    "GL_NV_blend_equation_advanced",
-    "GL_ARB_texture_swizzle",
-    "GL_NV_blend_equation_advanced_coherent",
-    "GL_NV_conservative_raster",
-    "GL_ARB_viewport_array",
-    "GL_NV_fill_rectangle",
-    "GL_ARB_framebuffer_object",
-    "GL_NV_memory_attachment",
-    "GL_KHR_robust_buffer_access_behavior",
-    "GL_EXT_Cg_shader",
-    "GL_KHR_parallel_shader_compile",
-    "GL_NV_sample_mask_override_coverage",
-    "GL_EXT_shader_integer_mix",
-    "GL_ARB_sparse_buffer",
-    "GL_NV_uniform_buffer_unified_memory",
-    "GL_NV_viewport_swizzle",
-    "GL_KHR_blend_equation_advanced",
-    "GL_EXT_blend_equation_separate",
-    "GL_ARB_transpose_matrix",
-    "GL_NV_occlusion_query",
-    "GL_ARB_explicit_uniform_location",
-    "GL_ARB_parallel_shader_compile",
-    "GL_NV_pixel_data_range",
-    "GL_NV_path_rendering",
-    "GL_NV_primitive_restart",
     "GL_ARB_ES3_compatibility",
-    "GL_KTX_buffer_region",
-    "GL_NV_texture_barrier",
-    "GL_NV_float_buffer",
-    "GL_EXT_win32_keyed_mutex",
-    "GL_ARB_post_depth_coverage",
-    "GL_KHR_no_error",
-    "GL_NV_vertex_array_range2",
-    "GL_NV_vertex_buffer_unified_memory",
-    "GL_NV_vertex_array_range",
-    "GL_EXT_point_parameters",
-    "GL_NV_feature_query",
-    "GL_EXT_separate_specular_color",
-    "GL_NVX_multigpu_info",
-    "GL_ARB_texture_buffer_range",
-    "GL_EXT_shader_image_load_formatted",
-    "GL_NV_memory_object_sparse",
-    "GL_NV_query_resource",
-    "GL_EXT_texture3D",
-    "GL_ARB_multi_bind",
-    "GL_NV_shader_texture_footprint",
-    "GL_ARB_shading_language_include",
-    "GL_NV_framebuffer_multisample_coverage",
-    "GL_AMD_multi_draw_indirect",
-    "GL_ARB_multi_draw_indirect",
-    "GL_ARB_framebuffer_no_attachments",
-    "GL_ARB_occlusion_query2",
-    "GL_ARB_timer_query",
-    "GL_EXT_semaphore",
-    "GL_AMD_vertex_shader_viewport_index",
-    "GL_ARB_shader_image_load_store",
-    "GL_EXT_texture_cube_map",
-    "GL_NV_texgen_reflection",
-    "GL_ARB_texture_rgb10_a2ui",
-    "GL_ARB_gpu_shader_fp64",
-    "GL_NV_vertex_program1_1",
-    "GL_NVX_nvenc_interop",
-    "GL_SGIX_shadow",
-    "GL_EXT_packed_float",
-    "GL_NV_multisample_coverage",
-    "GL_ARB_texture_filter_minmax",
-    "GL_NV_shading_rate_image",
-    "GL_ARB_draw_elements_base_vertex",
-    "GL_ARB_vertex_attrib_binding",
-    "GL_NV_explicit_multisample",
-    "GL_EXT_depth_bounds_test",
-    "GL_ARB_shader_texture_image_samples",
-    "GL_EXT_framebuffer_blit",
-    "GL_NV_uniform_buffer_std430_layout",
-    "GL_ARB_texture_env_dot3",
-    "GL_EXT_compiled_vertex_array",
-    "GL_ARB_point_sprite",
-    "GL_EXTX_framebuffer_mixed_formats",
-    "GL_EXT_packed_pixels",
-    "GL_EXT_pixel_buffer_object",
-    "GL_EXT_texture_compression_latc",
-    "GL_EXT_texture_env_dot3",
-    "GL_NV_parameter_buffer_object2",
-    "GL_ATI_texture_float",
-    "GL_ARB_draw_indirect",
-    "GL_ARB_buffer_storage",
-    "GL_ARB_texture_gather",
-    "GL_EXT_texture_array",
-    "GL_EXT_timer_query",
-    "GL_ARB_seamless_cubemap_per_texture",
-    "GL_ARB_invalidate_subdata",
-    "GL_ARB_texture_storage_multisample",
-    "GL_ARB_shader_subroutine",
-    "GL_EXT_direct_state_access",
-    "GL_NV_fragment_program",
-    "GL_NV_gpu_program5_mem_extended",
-    "GL_NV_texture_multisample",
-    "GL_EXT_memory_object_win32",
-    "GL_NV_representative_fragment_test",
-    "GL_ARB_vertex_buffer_object",
-    "GL_EXT_draw_instanced",
-    "GL_NVX_blend_equation_advanced_multi_draw_buffers",
-    "GL_NV_fog_distance",
-    "GL_ARB_draw_instanced",
     "GL_ARB_texture_view",
-    "GL_EXT_memory_object",
-    "GL_NV_texture_rectangle_compressed",
-    "GL_NV_conservative_raster_dilate",
-    "GL_NV_gpu_multicast",
-    "GL_NV_path_rendering_shared_edge",
-    "GL_OVR_multiview2",
-    "GL_EXT_texture_mirror_clamp",
-    "GL_NV_conservative_raster_pre_snap",
-    "GL_NV_ES3_1_compatibility",
+    "GL_ARB_multi_bind",
+    "GL_NV_clip_space_w_scaling",
+    "GL_NV_conditional_render",
+    "GL_ARB_shader_image_size",
+    "GL_ARB_multisample",
+    "GL_ARB_shader_viewport_layer_array",
+    "GL_NV_blend_equation_advanced",
+    "GL_ARB_program_interface_query",
+    "GL_ARB_framebuffer_object",
+    "GL_EXT_stencil_two_side",
     "GL_EXT_texture_env_combine",
-    "GL_ARB_shader_ballot",
-    "GL_ARB_texture_multisample",
-    "GL_NV_register_combiners2",
-    "GL_EXT_separate_shader_objects",
+    "GL_NV_query_resource",
+    "GL_EXT_framebuffer_multisample_blit_scaled",
+    "GL_NV_texture_rectangle",
+    "GL_EXT_framebuffer_object",
+    "GL_NVX_gpu_memory_info",
+    "GL_NV_texture_shader3",
+    "GL_NV_shader_thread_shuffle",
+    "WGL_EXT_swap_control",
+    "GL_ARB_provoking_vertex",
+    "GL_ARB_sample_locations",
+    "GL_NV_vertex_program3",
+    "GL_EXT_texture_shadow_lod",
+    "GL_EXT_texture_sRGB_R8",
+    "GL_KTX_buffer_region",
+    "GL_ARB_texture_barrier",
+    "GL_NV_timeline_semaphore",
+    "GL_NV_float_buffer",
+    "GL_NV_multisample_coverage",
+    "GL_NV_fence",
+    "GL_ARB_conservative_depth",
+    "GL_ARB_fragment_layer_viewport",
+    "GL_NV_depth_clamp",
+    "GL_NV_texture_rectangle_compressed",
+    "GL_NV_viewport_swizzle",
+    "GL_ARB_vertex_type_10f_11f_11f_rev",
     "GL_ARB_shader_bit_encoding",
-    "GL_ARB_bindless_texture",
-    "GL_ARB_compute_shader",
-    "GL_ARB_texture_stencil8",
-    "GL_EXT_blend_color",
+    "GL_EXT_geometry_shader4",
+    "GL_ARB_texture_buffer_object",
+    "GL_ARB_separate_shader_objects",
+    "GL_NVX_gpu_multicast2",
+    "GL_EXT_packed_depth_stencil",
+    "GL_ARB_shader_precision",
+    "GL_ARB_texture_compression_bptc",
+    "GL_ARB_texture_non_power_of_two",
+    "GL_ARB_fragment_program",
+    "GL_NV_geometry_shader_passthrough",
+    "GL_NV_shader_atomic_float",
+    "GL_NV_vertex_buffer_unified_memory",
+    "GL_OVR_multiview",
+    "GL_ARB_shader_texture_lod",
+    "GL_ARB_multi_draw_indirect",
+    "GL_EXT_texture_lod_bias",
+    "GL_NV_draw_texture",
+    "GL_NV_multisample_filter_hint",
+    "GL_NV_depth_buffer_float",
+    "GL_ARB_pixel_buffer_object",
+    "GL_ARB_copy_image",
+    "GL_ARB_sync",
+    "GL_EXT_multiview_texture_multisample",
+    "GL_NV_texture_shader",
+    "GL_EXT_semaphore",
+    "GL_NV_fragment_coverage_to_color",
+    "GL_NV_sample_locations",
     "GL_NV_geometry_shader4",
-    "GL_NV_vertex_program2",
-    "GL_ARB_texture_env_combine",
-    "GL_NV_blend_minmax_factor",
-    "GL_EXT_texture_compression_rgtc",
-    "GL_EXT_multiview_timer_query",
-    "GL_EXT_bgra",
-    "GL_ARB_fragment_coord_conventions",
-    "GL_ARB_depth_texture",
+    "GL_NV_gpu_program_multiview",
+    "GL_ARB_ES3_2_compatibility",
+    "GL_EXT_sparse_texture2",
+    "GL_NV_stereo_view_rendering",
+    "GL_NV_blend_equation_advanced_coherent",
+    "GL_NV_register_combiners2",
+    "GL_EXT_compiled_vertex_array",
+    "GL_ARB_shader_objects",
+    "GL_NV_representative_fragment_test",
+    "GL_NV_viewport_array2",
+    "GL_NV_shader_texture_footprint",
+    "GL_ARB_texture_filter_anisotropic",
+    "GL_EXT_texture_mirror_clamp",
+    "GL_NV_register_combiners",
+    "GL_NV_conservative_raster_pre_snap",
+    "GL_NV_vertex_array_range2",
+    "GL_NV_shader_subgroup_partitioned",
+    "GL_ARB_texture_compression_rgtc",
+    "GL_NV_shader_buffer_load",
+    "GL_EXT_blend_equation_separate",
+    "GL_IBM_texture_mirrored_repeat",
+    "GL_NV_uniform_buffer_unified_memory",
+    "GL_ARB_gpu_shader5",
+    "GL_ARB_shader_texture_image_samples",
+    "GL_AMD_seamless_cubemap_per_texture",
+    "GL_ARB_compressed_texture_pixel_storage",
+    "GL_ARB_spirv_extensions",
+    "GL_ARB_texture_compression",
+    "GL_ARB_fragment_shader_interlock",
+    "GL_ARB_shader_atomic_counters",
+    "GL_EXT_draw_buffers2",
+    "GL_ARB_draw_indirect",
+    "GL_EXT_timer_query",
+    "GL_EXT_texture_array",
+    "GL_EXT_framebuffer_multisample",
+    "GL_ARB_gpu_shader_fp64",
+    "GL_EXT_texture_edge_clamp",
+    "GL_ARB_texture_env_dot3",
+    "GL_EXT_separate_specular_color",
+    "GL_ARB_base_instance",
+    "GL_EXT_abgr",
+    "GL_ARB_internalformat_query",
+    "GL_ARB_shader_atomic_counter_ops",
+    "GL_EXT_texture_compression_s3tc",
+    "GL_NV_alpha_to_coverage_dither_control",
+    "GL_ARB_derivative_control",
+    "GL_NV_texture_barrier",
+    "GL_ARB_compatibility",
+    "GL_ARB_shader_subroutine",
+    "GL_ARB_vertex_type_2_10_10_10_rev",
+    "GL_ATI_draw_buffers",
+    "GL_ARB_tessellation_shader",
+    "GL_ARB_texture_float",
+    "GL_EXT_texture_lod",
+    "GL_ARB_ES3_1_compatibility",
+    "GL_NV_vertex_program2_option",
+    "GL_NV_gpu_multicast",
+    "GL_ARB_framebuffer_no_attachments",
+    "GL_NV_half_float",
+    "GL_EXT_pixel_buffer_object",
+    "GL_EXT_texture_filter_minmax",
+    "GL_ARB_fragment_shader",
+    "GL_ARB_sparse_texture",
+    "GL_ARB_texture_query_lod",
+    "GL_EXT_stencil_wrap",
+    "GL_ARB_draw_buffers_blend",
+    "GL_AMD_vertex_shader_layer",
+    "GL_ARB_seamless_cube_map",
+    "GL_ARB_transform_feedback_instanced",
+    "GL_ARB_vertex_program",
+    "GL_ATI_texture_float",
+    "GL_ARB_get_program_binary",
+    "GL_ARB_occlusion_query",
+    "GL_ARB_internalformat_query2",
+    "GL_EXT_Cg_shader",
+    "GL_EXT_framebuffer_blit",
+    "GL_NV_bindless_multi_draw_indirect",
+    "GL_NV_conservative_raster_pre_snap_triangles",
+    "GL_NV_ES3_1_compatibility",
+    "GL_EXT_packed_pixels",
+    "GL_ARB_shading_language_420pack",
+    "GL_NV_fragment_program",
+    "GL_ARB_vertex_buffer_object",
+    "GL_NV_path_rendering",
+    "GL_ARB_uniform_buffer_object",
+    "GL_NV_fragment_program2",
+    "GL_NV_texture_multisample",
+    "GL_NVX_progress_fence",
+    "GL_ARB_depth_clamp",
+    "GL_NV_copy_image",
+    "GL_ARB_texture_stencil8",
+    "GL_ARB_texture_swizzle",
+    "GL_NV_memory_attachment",
+    "GL_EXT_texture_sRGB_decode",
+    "GL_ARB_shader_ballot",
+    "GL_ARB_shader_clock",
+    "GL_EXT_shader_image_load_formatted",
+    "GL_NV_texture_shader2",
+    "GL_NV_memory_object_sparse",
+    "GL_KHR_shader_subgroup",
+    "GL_ARB_timer_query",
+    "GL_ARB_bindless_texture",
+    "GL_ARB_shader_group_vote",
+    "GL_EXT_secondary_color",
+    "GL_ARB_draw_buffers",
+    "GL_ARB_direct_state_access",
+    "GL_ARB_gl_spirv",
+    "GL_ARB_arrays_of_arrays",
 }
 [DEBUG wgpu_core::instance] Found 4 compatible adapters. Sorted by preference:
 [DEBUG wgpu_core::instance] * AdapterInfo { name: "NVIDIA GeForce RTX 2080 with Max-Q Design", vendor: 4318, device: 7888, device_type: DiscreteGpu, driver: "NVIDIA", driver_info: "581.29", backend: Vulkan }
@@ -1085,107 +639,1555 @@
 [DEBUG wgpu_hal::vulkan::adapter] Supported extensions: ["VK_KHR_swapchain", "VK_KHR_swapchain_mutable_format", "VK_EXT_robustness2", "VK_KHR_external_memory_win32", "VK_EXT_memory_budget"]
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	Inserted device layer "VK_LAYER_KHRONOS_validation" (C:\VulkanSDK\1.4.321.1\Bin\.\VkLayer_khronos_validation.dll)
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	Inserted device layer "VK_LAYER_NV_present" (C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\.\nvoglv64.dll)
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	Inserted device layer "VK_LAYER_NV_optimus" (C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\.\nvoglv64.dll)
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	vkCreateDevice layer callstack setup to:
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	   <Application>
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	     ||
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	   <Loader>
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	     ||
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	   VK_LAYER_NV_optimus
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	           Type: Implicit
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	           Enabled By: Implicit Layer
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	               Disable Env Var:  DISABLE_LAYER_NV_OPTIMUS_1
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	           Manifest: C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\nv-vk64.json
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	           Library:  C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\.\nvoglv64.dll
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	     ||
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	   VK_LAYER_NV_present
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	           Type: Implicit
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	           Enabled By: Implicit Layer
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	               Disable Env Var:  DISABLE_LAYER_NV_GR2608_1
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	           Manifest: C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\nv-vk64.json
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	           Library:  C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\.\nvoglv64.dll
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	     ||
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	   VK_LAYER_KHRONOS_validation
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	           Type: Explicit
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	           Enabled By: By the Application
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	           Manifest: C:\VulkanSDK\1.4.321.1\Bin\VkLayer_khronos_validation.json
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	           Library:  C:\VulkanSDK\1.4.321.1\Bin\.\VkLayer_khronos_validation.dll
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	     ||
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	   <Device>
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
 [INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
 	       Using "NVIDIA GeForce RTX 2080 with Max-Q Design" with driver: "C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\.\nvoglv64.dll"
-[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
-[DEBUG wgpu_core::device::global] configuring surface with SurfaceConfiguration { usage: TextureUsages(RENDER_ATTACHMENT), format: Bgra8UnormSrgb, width: 800, height: 600, present_mode: Fifo, desired_maximum_frame_latency: 2, alpha_mode: Auto, view_formats: [] }
-[WARN wgpu_hal::vulkan::instance] PERFORMANCE [WARNING-Shader-OutputNotConsumed (0xc81ad50e)]
-	vkCreateGraphicsPipelines(): pCreateInfos[0].pVertexInputState Vertex attribute at location 2 not consumed by vertex shader.
-[WARN wgpu_hal::vulkan::instance] 	objects: (type: SHADER_MODULE, hndl: 0x400000000040, name: ?)
-[DEBUG wgpu_core::device::global] configuring surface with SurfaceConfiguration { usage: TextureUsages(RENDER_ATTACHMENT), format: Bgra8UnormSrgb, width: 1422, height: 700, present_mode: Fifo, desired_maximum_frame_latency: 2, alpha_mode: Auto, view_formats: [] }
-[DEBUG wgpu_core::device::global] configuring surface with SurfaceConfiguration { usage: TextureUsages(RENDER_ATTACHMENT), format: Bgra8UnormSrgb, width: 800, height: 600, present_mode: Fifo, desired_maximum_frame_latency: 2, alpha_mode: Auto, view_formats: [] }
-[DEBUG wgpu_core::device::global] configuring surface with SurfaceConfiguration { usage: TextureUsages(RENDER_ATTACHMENT), format: Bgra8UnormSrgb, width: 800, height: 600, present_mode: Fifo, desired_maximum_frame_latency: 2, alpha_mode: Auto, view_formats: [] }
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x21491e13d30, name: ?)
+[DEBUG wgpu_core::device::global] configuring surface with SurfaceConfiguration { usage: TextureUsages(RENDER_ATTACHMENT), format: Bgra8UnormSrgb, width: 800, height: 600, present_mode: Fifo, desired_maximum_frame_latency: 3, alpha_mode: Auto, view_formats: [] }
+[ERROR wgpu::backend::wgpu_core] Handling wgpu errors as fatal by default
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	No valid vk_loader_settings.json file found, no loader settings will be active
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	windows_get_app_package_manifest_path: Failed to find mapping layers packages by family name
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Checking for Layer Manifest files in Registry at HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\ImplicitLayers
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	windows_add_json_entry: Located json file "C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\nv-vk64.json" from PnP registry: E
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Found no registry files in HKEY_CURRENT_USER\SOFTWARE\Khronos\Vulkan\ImplicitLayers
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Found manifest file C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\nv-vk64.json (file version 1.0.1)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Checking for Layer Manifest files in Registry at HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\ExplicitLayers
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	windows_get_device_registry_files: opening device PCI\VEN_10DE&DEV_1ED0&SUBSYS_8600103C&REV_A1\4&218f854&0&0008
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	windows_get_device_registry_entry: Device ID(2) Does not contain a value for "VulkanExplicitLayers"
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	windows_get_device_registry_files: Opening child device 3 - DISPLAY\DELD0C2\5&AD879BB&0&UID4354
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
 [DEBUG wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
-	Unloading layer library C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\.\nvoglv64.dll
-[DEBUG wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+	windows_get_device_registry_files: GUID for 3 is not SoftwareComponent skipping
+[DEBUG wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	windows_get_device_registry_files: Opening child device 4 - DISPLAY\AUO82ED\5&AD879BB&0&UID4355
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
 [DEBUG wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
-	Unloading layer library C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\.\nvoglv64.dll
-[DEBUG wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+	windows_get_device_registry_files: GUID for 4 is not SoftwareComponent skipping
+[DEBUG wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	windows_get_device_registry_files: found no registry files
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Located json file "C:\VulkanSDK\1.4.321.1\Bin\VkLayer_api_dump.json" from registry "HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\ExplicitLayers"
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Located json file "C:\VulkanSDK\1.4.321.1\Bin\VkLayer_gfxreconstruct.json" from registry "HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\ExplicitLayers"
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Located json file "C:\VulkanSDK\1.4.321.1\Bin\VkLayer_khronos_synchronization2.json" from registry "HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\ExplicitLayers"
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Located json file "C:\VulkanSDK\1.4.321.1\Bin\VkLayer_khronos_validation.json" from registry "HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\ExplicitLayers"
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Located json file "C:\VulkanSDK\1.4.321.1\Bin\VkLayer_monitor.json" from registry "HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\ExplicitLayers"
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Located json file "C:\VulkanSDK\1.4.321.1\Bin\VkLayer_screenshot.json" from registry "HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\ExplicitLayers"
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Located json file "C:\VulkanSDK\1.4.321.1\Bin\VkLayer_khronos_profiles.json" from registry "HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\ExplicitLayers"
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Located json file "C:\VulkanSDK\1.4.321.1\Bin\VkLayer_khronos_shader_object.json" from registry "HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\ExplicitLayers"
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Located json file "C:\VulkanSDK\1.4.321.1\Bin\VkLayer_crash_diagnostic.json" from registry "HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\ExplicitLayers"
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Found manifest file C:\VulkanSDK\1.4.321.1\Bin\VkLayer_api_dump.json (file version 1.2.0)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Found manifest file C:\VulkanSDK\1.4.321.1\Bin\VkLayer_gfxreconstruct.json (file version 1.2.0)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Found manifest file C:\VulkanSDK\1.4.321.1\Bin\VkLayer_khronos_synchronization2.json (file version 1.2.0)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Found manifest file C:\VulkanSDK\1.4.321.1\Bin\VkLayer_khronos_validation.json (file version 1.2.0)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Found manifest file C:\VulkanSDK\1.4.321.1\Bin\VkLayer_monitor.json (file version 1.0.0)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Found manifest file C:\VulkanSDK\1.4.321.1\Bin\VkLayer_screenshot.json (file version 1.2.0)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Found manifest file C:\VulkanSDK\1.4.321.1\Bin\VkLayer_khronos_profiles.json (file version 1.2.1)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Found manifest file C:\VulkanSDK\1.4.321.1\Bin\VkLayer_khronos_shader_object.json (file version 1.2.0)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Found manifest file C:\VulkanSDK\1.4.321.1\Bin\VkLayer_crash_diagnostic.json (file version 1.2.0)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	windows_get_app_package_manifest_path: Failed to find mapping layers packages by family name
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Checking for Driver Manifest files in Registry at HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\Drivers
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	windows_add_json_entry: Located json file "C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\nv-vk64.json" from PnP registry: E
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Found no registry files in HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\Drivers
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Found ICD manifest file C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\nv-vk64.json, version 1.0.1
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
 [DEBUG wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
-	Unloading layer library C:\VulkanSDK\1.4.321.1\Bin\.\VkLayer_khronos_validation.dll
-[DEBUG wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x1e5df32b970, name: ?)
+	Searching for ICD drivers named .\nvoglv64.dll
+[DEBUG wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[DEBUG wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Loading layer library C:\VulkanSDK\1.4.321.1\Bin\.\VkLayer_khronos_validation.dll
+[DEBUG wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Insert instance layer "VK_LAYER_KHRONOS_validation" (C:\VulkanSDK\1.4.321.1\Bin\.\VkLayer_khronos_validation.dll)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[DEBUG wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Loading layer library C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\.\nvoglv64.dll
+[DEBUG wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Insert instance layer "VK_LAYER_NV_present" (C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\.\nvoglv64.dll)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[DEBUG wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Loading layer library C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\.\nvoglv64.dll
+[DEBUG wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Insert instance layer "VK_LAYER_NV_optimus" (C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\.\nvoglv64.dll)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	vkCreateInstance layer callstack setup to:
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	   <Application>
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	     ||
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	   <Loader>
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	     ||
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	   VK_LAYER_NV_optimus
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	           Type: Implicit
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	           Enabled By: Implicit Layer
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	               Disable Env Var:  DISABLE_LAYER_NV_OPTIMUS_1
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	           Manifest: C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\nv-vk64.json
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	           Library:  C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\.\nvoglv64.dll
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	     ||
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	   VK_LAYER_NV_present
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	           Type: Implicit
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	           Enabled By: Implicit Layer
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	               Disable Env Var:  DISABLE_LAYER_NV_GR2608_1
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	           Manifest: C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\nv-vk64.json
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	           Library:  C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\.\nvoglv64.dll
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	     ||
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	   VK_LAYER_KHRONOS_validation
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	           Type: Explicit
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	           Enabled By: By the Application
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	           Manifest: C:\VulkanSDK\1.4.321.1\Bin\VkLayer_khronos_validation.json
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	           Library:  C:\VulkanSDK\1.4.321.1\Bin\.\VkLayer_khronos_validation.dll
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	     ||
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	   <Drivers>
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] VALIDATION [WARNING-CreateInstance-status-message (0x23dfd876)]
+	vkCreateInstance(): Khronos Validation Layer Active:
+    Current Enables: VK_VALIDATION_FEATURE_ENABLE_SYNCHRONIZATION_VALIDATION_EXT.
+    Current Disables: None.
+
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[DEBUG wgpu_hal::vulkan::instance] Instance version: 0x404135
+[INFO wgpu_hal::vulkan::instance] Enabling debug utils
+[DEBUG wgpu_hal::vulkan::instance] Enabling device properties2
+[DEBUG wgpu_core::instance] Instance::new: created Vulkan backend
+[DEBUG wgpu_hal::dx12::instance] Using FXC for shader compilation
+[DEBUG wgpu_core::instance] Instance::new: created Dx12 backend
+[DEBUG wgpu_hal::gles::wgl] Enabling GL debug output
+[DEBUG wgpu_core::instance] Instance::new: created Gl backend
+[DEBUG wgpu_hal::gles::adapter] Vendor: NVIDIA Corporation
+[DEBUG wgpu_hal::gles::adapter] Renderer: NVIDIA GeForce RTX 2080 with Max-Q Design/PCIe/SSE2
+[DEBUG wgpu_hal::gles::adapter] Version: 4.6.0 NVIDIA 581.29
+[DEBUG wgpu_hal::gles::adapter] SL version: 4.60 NVIDIA
+[DEBUG wgpu_hal::gles::adapter] Supported GL Extensions: {
+    "GL_EXT_geometry_shader4",
+    "GL_EXT_import_sync_object",
+    "GL_EXT_bindable_uniform",
+    "GL_NVX_blend_equation_advanced_multi_draw_buffers",
+    "GL_EXT_framebuffer_multisample",
+    "GL_NV_conservative_raster_pre_snap_triangles",
+    "GL_EXT_vertex_array_bgra",
+    "GL_NV_depth_clamp",
+    "GL_ARB_texture_cube_map",
+    "GL_EXT_sparse_texture2",
+    "GL_AMD_vertex_shader_layer",
+    "GL_ARB_get_program_binary",
+    "GL_AMD_multi_draw_indirect",
+    "GL_NV_gpu_program5",
+    "GL_SGIS_generate_mipmap",
+    "GL_ARB_texture_query_lod",
+    "GL_ARB_get_texture_sub_image",
+    "GL_EXT_multiview_texture_multisample",
+    "GL_NV_gpu_shader5",
+    "GL_NV_compute_shader_derivatives",
+    "GL_NV_shader_atomic_counters",
+    "GL_NV_texture_shader3",
+    "GL_NV_transform_feedback",
+    "GL_NVX_multigpu_info",
+    "GL_ARB_draw_buffers_blend",
+    "GL_ARB_texture_float",
+    "GL_EXT_texture_swizzle",
+    "GL_EXT_texture_shared_exponent",
+    "GL_EXT_point_parameters",
+    "GL_ARB_half_float_pixel",
+    "GL_ARB_draw_instanced",
+    "GL_EXT_depth_bounds_test",
+    "GL_ARB_half_float_vertex",
+    "GL_OVR_multiview2",
+    "GL_EXT_texture_compression_latc",
+    "GL_NV_compute_program5",
+    "GL_NV_vertex_attrib_integer_64bit",
+    "GL_NV_vertex_program2",
+    "GL_ARB_texture_filter_minmax",
+    "GL_EXT_transform_feedback2",
+    "GL_ARB_shader_group_vote",
+    "GL_WIN_swap_hint",
+    "GL_ARB_timer_query",
+    "GL_ARB_sparse_texture_clamp",
+    "GL_ARB_shader_atomic_counter_ops",
+    "GL_ARB_debug_output",
+    "GL_EXT_texture3D",
+    "GL_EXT_texture_edge_clamp",
+    "GL_EXT_texture_storage",
+    "GL_NV_ES1_1_compatibility",
+    "GL_NVX_conditional_render",
+    "GL_EXT_provoking_vertex",
+    "GL_ARB_shader_image_load_store",
+    "GL_ARB_shader_texture_lod",
+    "GL_ARB_stencil_texturing",
+    "GL_EXT_framebuffer_blit",
+    "GL_OVR_multiview",
+    "GL_NV_gpu_program5_mem_extended",
+    "GL_NV_texgen_reflection",
+    "GL_NV_scissor_exclusive",
+    "GL_EXT_secondary_color",
+    "GL_ARB_seamless_cubemap_per_texture",
+    "GL_ARB_vertex_attrib_64bit",
+    "GL_EXT_texture_sRGB",
+    "GL_NV_shader_storage_buffer_object",
+    "GL_NV_viewport_swizzle",
+    "GL_SGIS_texture_lod",
+    "GL_EXT_blend_func_separate",
+    "GL_NV_vertex_program",
+    "GL_NV_fragment_program_option",
+    "GL_ARB_multitexture",
+    "GL_ARB_shader_ballot",
+    "GL_EXT_draw_buffers2",
+    "GL_ARB_texture_non_power_of_two",
+    "GL_EXT_separate_shader_objects",
+    "GL_ARB_transform_feedback_instanced",
+    "GL_ARB_vertex_array_object",
+    "GL_NV_light_max_exponent",
+    "GL_ARB_base_instance",
+    "GL_EXT_Cg_shader",
+    "GL_ARB_vertex_type_10f_11f_11f_rev",
+    "GL_EXT_texture_env_add",
+    "GL_ARB_imaging",
+    "GL_EXT_raster_multisample",
+    "GL_EXT_texture_filter_minmax",
+    "GL_EXT_texture_sRGB_R8",
+    "GL_ARB_copy_buffer",
+    "GL_ARB_point_sprite",
+    "GL_EXT_framebuffer_sRGB",
+    "GL_ARB_buffer_storage",
+    "GL_NV_memory_object_sparse",
+    "GL_ARB_shader_texture_image_samples",
+    "GL_NV_draw_vulkan_image",
+    "GL_ARB_shader_storage_buffer_object",
+    "GL_NV_depth_buffer_float",
+    "GL_NV_vertex_program3",
+    "GL_ARB_ES3_1_compatibility",
+    "GL_ARB_texture_compression",
+    "GL_ARB_map_buffer_range",
+    "GL_ARB_geometry_shader4",
+    "GL_NV_vertex_program2_option",
+    "GL_EXT_texture_sRGB_decode",
+    "GL_EXT_blend_minmax",
+    "GL_EXT_semaphore",
+    "GL_ARB_arrays_of_arrays",
+    "GL_NV_vertex_program1_1",
+    "GL_ARB_texture_swizzle",
+    "GL_EXT_texture_env_dot3",
+    "GL_EXT_texture_integer",
+    "GL_EXT_timer_query",
+    "GL_ARB_fragment_layer_viewport",
+    "GL_NV_draw_texture",
+    "GL_NV_register_combiners",
+    "GL_NVX_progress_fence",
+    "GL_ARB_conservative_depth",
+    "GL_ARB_clear_texture",
+    "GL_ARB_multi_bind",
+    "GL_ARB_shader_clock",
+    "GL_ARB_shader_objects",
+    "GL_ARB_shader_subroutine",
+    "GL_ATI_texture_float",
+    "GL_EXT_direct_state_access",
+    "GL_ARB_vertex_array_bgra",
+    "GL_EXT_texture_compression_dxt1",
+    "GL_EXT_texture_compression_rgtc",
+    "GL_NV_explicit_multisample",
+    "GL_ARB_depth_texture",
+    "GL_ARB_pixel_buffer_object",
+    "GL_NV_fragment_program2",
+    "GL_ARB_texture_storage",
+    "GL_ARB_robust_buffer_access_behavior",
+    "GL_ARB_vertex_type_2_10_10_10_rev",
+    "GL_NV_shader_thread_shuffle",
+    "GL_EXT_shader_integer_mix",
+    "GL_NV_mesh_shader",
+    "GL_EXT_separate_specular_color",
+    "GL_NV_conservative_raster_dilate",
+    "GL_NV_vertex_array_range",
+    "GL_ARB_transform_feedback3",
+    "GL_NV_framebuffer_mixed_samples",
+    "GL_EXT_texture_array",
+    "GL_NV_gpu_multicast",
+    "GL_ARB_draw_indirect",
+    "GL_NV_multisample_filter_hint",
+    "GL_ARB_texture_rgb10_a2ui",
+    "GL_NV_shading_rate_image",
+    "GL_NV_fill_rectangle",
+    "GL_NV_fragment_shader_interlock",
+    "GL_NV_framebuffer_multisample_coverage",
+    "GL_NV_texture_env_combine4",
+    "GL_KHR_blend_equation_advanced_coherent",
+    "GL_ARB_shading_language_100",
+    "GL_ARB_parallel_shader_compile",
+    "GL_EXT_vertex_attrib_64bit",
+    "GL_SGIX_depth_texture",
+    "GL_NV_uniform_buffer_unified_memory",
+    "GL_EXT_blend_color",
+    "GL_AMD_seamless_cubemap_per_texture",
+    "GL_EXT_memory_object",
+    "GL_NV_texture_shader",
+    "GL_ARB_vertex_attrib_binding",
+    "GL_ARB_seamless_cube_map",
+    "GL_NV_path_rendering",
+    "GL_ARB_sparse_buffer",
+    "GL_ARB_cull_distance",
+    "GL_ARB_bindless_texture",
+    "GL_ARB_framebuffer_sRGB",
+    "GL_ARB_texture_buffer_object",
+    "GL_ARB_texture_stencil8",
+    "GL_NV_bindless_multi_draw_indirect",
+    "GL_NV_conditional_render",
+    "GL_NV_copy_depth_to_color",
+    "GL_NV_gpu_program4_1",
+    "GL_EXT_texture_lod_bias",
+    "GL_EXT_stencil_two_side",
+    "GL_NV_timeline_semaphore",
+    "GL_ARB_ES3_2_compatibility",
+    "GL_EXT_texture_lod",
+    "GL_EXT_vertex_array",
+    "GL_ARB_texture_barrier",
+    "GL_NV_point_sprite",
+    "GL_S3_s3tc",
+    "GL_ARB_texture_env_combine",
+    "GL_EXT_texture_mirror_clamp",
+    "GL_NV_texture_barrier",
+    "GL_EXT_blend_subtract",
+    "GL_NV_command_list",
+    "GL_KHR_shader_subgroup",
+    "GL_ARB_robustness",
+    "GL_EXT_texture_shadow_lod",
+    "GL_EXT_gpu_shader4",
+    "GL_NVX_nvenc_interop",
+    "GL_NV_occlusion_query",
+    "GL_KHR_context_flush_control",
+    "GL_EXT_shader_image_load_store",
+    "GL_KHR_robustness",
+    "GL_ARB_derivative_control",
+    "GL_ARB_uniform_buffer_object",
+    "GL_ARB_texture_mirrored_repeat",
+    "GL_NV_fence",
+    "GL_NV_register_combiners2",
+    "GL_ARB_instanced_arrays",
+    "GL_EXT_packed_depth_stencil",
+    "GL_ARB_texture_buffer_object_rgb32",
+    "GL_ARB_texture_multisample",
+    "GL_ARB_conditional_render_inverted",
+    "GL_ARB_query_buffer_object",
+    "GL_ARB_copy_image",
+    "GL_ARB_shader_image_size",
+    "GL_EXT_multi_draw_arrays",
+    "GL_ARB_polygon_offset_clamp",
+    "GL_NV_shader_texture_footprint",
+    "GL_NV_vertex_buffer_unified_memory",
+    "GL_NV_viewport_array2",
+    "GL_ARB_shading_language_include",
+    "GL_SGIX_shadow",
+    "WGL_EXT_swap_control",
+    "GL_EXT_framebuffer_multisample_blit_scaled",
+    "GL_ARB_draw_buffers",
+    "GL_EXT_gpu_program_parameters",
+    "GL_EXT_texture_object",
+    "GL_NV_uniform_buffer_std430_layout",
+    "GL_ATI_draw_buffers",
+    "GL_NV_transform_feedback2",
+    "GL_NV_sample_locations",
+    "GL_ARB_texture_mirror_clamp_to_edge",
+    "GL_ARB_sparse_texture",
+    "GL_EXT_stencil_wrap",
+    "GL_ARB_compute_shader",
+    "GL_ARB_gpu_shader_fp64",
+    "GL_SUN_slice_accum",
+    "GL_ARB_texture_gather",
+    "GL_EXT_draw_instanced",
+    "GL_NV_blend_minmax_factor",
+    "GL_ARB_framebuffer_no_attachments",
+    "GL_NV_parameter_buffer_object",
+    "GL_KTX_buffer_region",
+    "GL_ARB_clear_buffer_object",
+    "GL_ARB_fragment_shader_interlock",
+    "GL_ARB_occlusion_query",
+    "GL_ARB_vertex_shader",
+    "GL_NV_memory_attachment",
+    "GL_NV_texture_rectangle",
+    "GL_NV_gpu_program_fp64",
+    "GL_NV_query_resource",
+    "GL_ARB_internalformat_query2",
+    "GL_NV_primitive_restart",
+    "GL_ARB_vertex_program",
+    "GL_ARB_texture_view",
+    "GL_ARB_sample_locations",
+    "GL_NV_multisample_coverage",
+    "GL_NV_stereo_view_rendering",
+    "GL_EXT_post_depth_coverage",
+    "GL_EXT_fog_coord",
+    "GL_KHR_robust_buffer_access_behavior",
+    "GL_EXT_polygon_offset_clamp",
+    "GL_EXT_shader_image_load_formatted",
+    "GL_EXT_shadow_funcs",
+    "GL_NV_ES3_1_compatibility",
+    "GL_ARB_texture_cube_map_array",
+    "GL_ARB_texture_storage_multisample",
+    "GL_ARB_sparse_texture2",
+    "GL_ARB_transpose_matrix",
+    "GL_KHR_parallel_shader_compile",
+    "GL_EXT_pixel_buffer_object",
+    "GL_NV_bindless_texture",
+    "GL_NV_gpu_program_multiview",
+    "GL_NVX_gpu_multicast2",
+    "GL_NV_representative_fragment_test",
+    "GL_NV_blend_equation_advanced_coherent",
+    "GL_NV_parameter_buffer_object2",
+    "GL_ARB_separate_shader_objects",
+    "GL_ARB_texture_border_clamp",
+    "GL_ARB_point_parameters",
+    "GL_ARB_vertex_buffer_object",
+    "GL_NV_bindless_multi_draw_indirect_count",
+    "GL_NV_blend_square",
+    "GL_ARB_enhanced_layouts",
+    "GL_ARB_invalidate_subdata",
+    "GL_ARB_shader_bit_encoding",
+    "GL_ARB_shading_language_packing",
+    "GL_EXT_texture_buffer_object",
+    "GL_EXT_texture_filter_anisotropic",
+    "GL_ARB_shadow",
+    "GL_EXT_semaphore_win32",
+    "GL_NV_float_buffer",
+    "GL_NV_query_resource_tag",
+    "GL_EXT_window_rectangles",
+    "GL_ARB_shader_precision",
+    "GL_NV_shader_buffer_load",
+    "GL_NV_texture_multisample",
+    "GL_NVX_gpu_memory_info",
+    "GL_ARB_shader_atomic_counters",
+    "GL_ARB_fragment_program",
+    "GL_ARB_clip_control",
+    "GL_ARB_compressed_texture_pixel_storage",
+    "GL_ARB_fragment_program_shadow",
+    "GL_ARB_tessellation_shader",
+    "GL_ARB_texture_rectangle",
+    "GL_ARB_texture_filter_anisotropic",
+    "GL_KHR_no_error",
+    "GL_EXT_bgra",
+    "GL_NV_conservative_raster",
+    "GL_EXT_win32_keyed_mutex",
+    "GL_ARB_compute_variable_group_size",
+    "GL_NV_fragment_shader_barycentric",
+    "GL_KHR_blend_equation_advanced",
+    "GL_ARB_shader_viewport_layer_array",
+    "GL_ARB_direct_state_access",
+    "GL_ARB_fragment_shader",
+    "GL_ARB_gpu_shader_int64",
+    "GL_ARB_sample_shading",
+    "GL_ARB_texture_buffer_range",
+    "GL_EXT_multiview_timer_query",
+    "GL_ARB_ES3_compatibility",
+    "GL_ARB_texture_query_levels",
+    "GL_IBM_texture_mirrored_repeat",
+    "GL_NV_copy_image",
+    "GL_ARB_depth_clamp",
+    "GL_NV_shader_atomic_int64",
+    "GL_ARB_depth_buffer_float",
+    "GL_EXT_blend_equation_separate",
+    "GL_ARB_framebuffer_object",
+    "GL_ARB_texture_env_dot3",
+    "GL_IBM_rasterpos_clip",
+    "GL_NV_geometry_shader_passthrough",
+    "GL_NV_texture_compression_vtc",
+    "GL_ARB_explicit_attrib_location",
+    "GL_NV_pixel_data_range",
+    "GL_ARB_sync",
+    "GL_EXTX_framebuffer_mixed_formats",
+    "GL_NV_fog_distance",
+    "GL_NV_half_float",
+    "GL_NV_shader_subgroup_partitioned",
+    "GL_NV_internalformat_sample_query",
+    "GL_NV_packed_depth_stencil",
+    "GL_NV_shader_atomic_fp16_vector",
+    "GL_ARB_post_depth_coverage",
+    "GL_ARB_ES2_compatibility",
+    "GL_NV_alpha_to_coverage_dither_control",
+    "GL_NV_shader_atomic_float64",
+    "GL_NV_shader_atomic_float",
+    "GL_KHR_debug",
+    "GL_EXT_rescale_normal",
+    "GL_ARB_occlusion_query2",
+    "GL_AMD_vertex_shader_viewport_index",
+    "GL_ARB_program_interface_query",
+    "GL_NV_conservative_raster_underestimation",
+    "GL_NV_gpu_program4",
+    "GL_ARB_explicit_uniform_location",
+    "GL_ARB_shader_draw_parameters",
+    "GL_NV_conservative_raster_pre_snap",
+    "GL_EXT_memory_object_win32",
+    "GL_NV_geometry_shader4",
+    "GL_ARB_draw_elements_base_vertex",
+    "GL_ARB_multi_draw_indirect",
+    "GL_EXT_texture_env_combine",
+    "GL_NV_clip_space_w_scaling",
+    "GL_ARB_compatibility",
+    "GL_EXT_texture_cube_map",
+    "GL_NV_fragment_program",
+    "GL_NV_sample_mask_override_coverage",
+    "GL_ARB_texture_env_crossbar",
+    "GL_NV_path_rendering_shared_edge",
+    "GL_ARB_texture_env_add",
+    "GL_ARB_color_buffer_float",
+    "GL_ARB_sampler_objects",
+    "GL_ATI_texture_mirror_once",
+    "GL_EXT_compiled_vertex_array",
+    "GL_NV_feature_query",
+    "GL_ARB_indirect_parameters",
+    "GL_NV_shader_thread_group",
+    "GL_NV_texture_rectangle_compressed",
+    "GL_NV_vertex_array_range2",
+    "GL_NV_fragment_coverage_to_color",
+    "GL_ARB_texture_compression_rgtc",
+    "GL_ARB_transform_feedback_overflow_query",
+    "GL_ARB_pipeline_statistics_query",
+    "GL_EXT_packed_float",
+    "GL_ARB_texture_rg",
+    "GL_EXT_packed_pixels",
+    "GL_NVX_linked_gpu_multicast",
+    "GL_NV_texture_shader2",
+    "GL_ARB_window_pos",
+    "GL_ARB_fragment_coord_conventions",
+    "GL_ARB_provoking_vertex",
+    "GL_ARB_gpu_shader5",
+    "GL_ARB_viewport_array",
+    "GL_NV_blend_equation_advanced",
+    "GL_ARB_spirv_extensions",
+    "GL_EXT_framebuffer_object",
+    "GL_EXT_draw_range_elements",
+    "GL_ARB_gl_spirv",
+    "GL_ARB_texture_compression_bptc",
+    "GL_ARB_map_buffer_alignment",
+    "GL_ARB_shading_language_420pack",
+    "GL_ARB_transform_feedback2",
+    "GL_EXT_texture_compression_s3tc",
+    "GL_EXT_abgr",
+    "GL_ARB_blend_func_extended",
+    "GL_ARB_internalformat_query",
+    "GL_ARB_multisample",
+}
+[DEBUG wgpu_core::instance] Found 4 compatible adapters. Sorted by preference:
+[DEBUG wgpu_core::instance] * AdapterInfo { name: "NVIDIA GeForce RTX 2080 with Max-Q Design", vendor: 4318, device: 7888, device_type: DiscreteGpu, driver: "NVIDIA", driver_info: "581.29", backend: Vulkan }
+[DEBUG wgpu_core::instance] * AdapterInfo { name: "NVIDIA GeForce RTX 2080 with Max-Q Design", vendor: 4318, device: 7888, device_type: DiscreteGpu, driver: "32.0.15.8129", driver_info: "", backend: Dx12 }
+[DEBUG wgpu_core::instance] * AdapterInfo { name: "Microsoft Basic Render Driver", vendor: 5140, device: 140, device_type: Cpu, driver: "10.0.19041.5794", driver_info: "", backend: Dx12 }
+[DEBUG wgpu_core::instance] * AdapterInfo { name: "NVIDIA GeForce RTX 2080 with Max-Q Design/PCIe/SSE2", vendor: 4318, device: 0, device_type: Other, driver: "", driver_info: "4.6.0 NVIDIA 581.29", backend: Gl }
+[DEBUG wgpu_core::instance] Request adapter result AdapterInfo { name: "NVIDIA GeForce RTX 2080 with Max-Q Design", vendor: 4318, device: 7888, device_type: DiscreteGpu, driver: "NVIDIA", driver_info: "581.29", backend: Vulkan }
+[DEBUG wgpu_hal::vulkan::adapter] Supported extensions: ["VK_KHR_swapchain", "VK_KHR_swapchain_mutable_format", "VK_EXT_robustness2", "VK_KHR_external_memory_win32", "VK_EXT_memory_budget"]
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Inserted device layer "VK_LAYER_KHRONOS_validation" (C:\VulkanSDK\1.4.321.1\Bin\.\VkLayer_khronos_validation.dll)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Inserted device layer "VK_LAYER_NV_present" (C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\.\nvoglv64.dll)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Inserted device layer "VK_LAYER_NV_optimus" (C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\.\nvoglv64.dll)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	vkCreateDevice layer callstack setup to:
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	   <Application>
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	     ||
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	   <Loader>
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	     ||
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	   VK_LAYER_NV_optimus
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	           Type: Implicit
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	           Enabled By: Implicit Layer
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	               Disable Env Var:  DISABLE_LAYER_NV_OPTIMUS_1
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	           Manifest: C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\nv-vk64.json
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	           Library:  C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\.\nvoglv64.dll
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	     ||
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	   VK_LAYER_NV_present
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	           Type: Implicit
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	           Enabled By: Implicit Layer
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	               Disable Env Var:  DISABLE_LAYER_NV_GR2608_1
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	           Manifest: C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\nv-vk64.json
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	           Library:  C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\.\nvoglv64.dll
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	     ||
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	   VK_LAYER_KHRONOS_validation
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	           Type: Explicit
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	           Enabled By: By the Application
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	           Manifest: C:\VulkanSDK\1.4.321.1\Bin\VkLayer_khronos_validation.json
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	           Library:  C:\VulkanSDK\1.4.321.1\Bin\.\VkLayer_khronos_validation.dll
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	     ||
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	   <Device>
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	       Using "NVIDIA GeForce RTX 2080 with Max-Q Design" with driver: "C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\.\nvoglv64.dll"
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x17cfaf287b0, name: ?)
+[DEBUG wgpu_core::device::global] configuring surface with SurfaceConfiguration { usage: TextureUsages(RENDER_ATTACHMENT), format: Bgra8UnormSrgb, width: 800, height: 600, present_mode: Fifo, desired_maximum_frame_latency: 3, alpha_mode: Auto, view_formats: [] }
+[ERROR wgpu::backend::wgpu_core] Handling wgpu errors as fatal by default
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	No valid vk_loader_settings.json file found, no loader settings will be active
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	windows_get_app_package_manifest_path: Failed to find mapping layers packages by family name
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Checking for Layer Manifest files in Registry at HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\ImplicitLayers
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	windows_add_json_entry: Located json file "C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\nv-vk64.json" from PnP registry: E
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Found no registry files in HKEY_CURRENT_USER\SOFTWARE\Khronos\Vulkan\ImplicitLayers
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Found manifest file C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\nv-vk64.json (file version 1.0.1)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Checking for Layer Manifest files in Registry at HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\ExplicitLayers
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	windows_get_device_registry_files: opening device PCI\VEN_10DE&DEV_1ED0&SUBSYS_8600103C&REV_A1\4&218f854&0&0008
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	windows_get_device_registry_entry: Device ID(2) Does not contain a value for "VulkanExplicitLayers"
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	windows_get_device_registry_files: Opening child device 3 - DISPLAY\DELD0C2\5&AD879BB&0&UID4354
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[DEBUG wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	windows_get_device_registry_files: GUID for 3 is not SoftwareComponent skipping
+[DEBUG wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	windows_get_device_registry_files: Opening child device 4 - DISPLAY\AUO82ED\5&AD879BB&0&UID4355
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[DEBUG wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	windows_get_device_registry_files: GUID for 4 is not SoftwareComponent skipping
+[DEBUG wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	windows_get_device_registry_files: found no registry files
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Located json file "C:\VulkanSDK\1.4.321.1\Bin\VkLayer_api_dump.json" from registry "HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\ExplicitLayers"
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Located json file "C:\VulkanSDK\1.4.321.1\Bin\VkLayer_gfxreconstruct.json" from registry "HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\ExplicitLayers"
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Located json file "C:\VulkanSDK\1.4.321.1\Bin\VkLayer_khronos_synchronization2.json" from registry "HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\ExplicitLayers"
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Located json file "C:\VulkanSDK\1.4.321.1\Bin\VkLayer_khronos_validation.json" from registry "HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\ExplicitLayers"
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Located json file "C:\VulkanSDK\1.4.321.1\Bin\VkLayer_monitor.json" from registry "HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\ExplicitLayers"
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Located json file "C:\VulkanSDK\1.4.321.1\Bin\VkLayer_screenshot.json" from registry "HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\ExplicitLayers"
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Located json file "C:\VulkanSDK\1.4.321.1\Bin\VkLayer_khronos_profiles.json" from registry "HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\ExplicitLayers"
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Located json file "C:\VulkanSDK\1.4.321.1\Bin\VkLayer_khronos_shader_object.json" from registry "HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\ExplicitLayers"
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Located json file "C:\VulkanSDK\1.4.321.1\Bin\VkLayer_crash_diagnostic.json" from registry "HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\ExplicitLayers"
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Found manifest file C:\VulkanSDK\1.4.321.1\Bin\VkLayer_api_dump.json (file version 1.2.0)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Found manifest file C:\VulkanSDK\1.4.321.1\Bin\VkLayer_gfxreconstruct.json (file version 1.2.0)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Found manifest file C:\VulkanSDK\1.4.321.1\Bin\VkLayer_khronos_synchronization2.json (file version 1.2.0)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Found manifest file C:\VulkanSDK\1.4.321.1\Bin\VkLayer_khronos_validation.json (file version 1.2.0)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Found manifest file C:\VulkanSDK\1.4.321.1\Bin\VkLayer_monitor.json (file version 1.0.0)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Found manifest file C:\VulkanSDK\1.4.321.1\Bin\VkLayer_screenshot.json (file version 1.2.0)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Found manifest file C:\VulkanSDK\1.4.321.1\Bin\VkLayer_khronos_profiles.json (file version 1.2.1)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Found manifest file C:\VulkanSDK\1.4.321.1\Bin\VkLayer_khronos_shader_object.json (file version 1.2.0)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Found manifest file C:\VulkanSDK\1.4.321.1\Bin\VkLayer_crash_diagnostic.json (file version 1.2.0)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	windows_get_app_package_manifest_path: Failed to find mapping layers packages by family name
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Checking for Driver Manifest files in Registry at HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\Drivers
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	windows_add_json_entry: Located json file "C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\nv-vk64.json" from PnP registry: E
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Found no registry files in HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\Drivers
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Found ICD manifest file C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\nv-vk64.json, version 1.0.1
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[DEBUG wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Searching for ICD drivers named .\nvoglv64.dll
+[DEBUG wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[DEBUG wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Loading layer library C:\VulkanSDK\1.4.321.1\Bin\.\VkLayer_khronos_validation.dll
+[DEBUG wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Insert instance layer "VK_LAYER_KHRONOS_validation" (C:\VulkanSDK\1.4.321.1\Bin\.\VkLayer_khronos_validation.dll)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[DEBUG wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Loading layer library C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\.\nvoglv64.dll
+[DEBUG wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Insert instance layer "VK_LAYER_NV_present" (C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\.\nvoglv64.dll)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[DEBUG wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Loading layer library C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\.\nvoglv64.dll
+[DEBUG wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Insert instance layer "VK_LAYER_NV_optimus" (C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\.\nvoglv64.dll)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	vkCreateInstance layer callstack setup to:
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	   <Application>
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	     ||
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	   <Loader>
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	     ||
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	   VK_LAYER_NV_optimus
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	           Type: Implicit
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	           Enabled By: Implicit Layer
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	               Disable Env Var:  DISABLE_LAYER_NV_OPTIMUS_1
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	           Manifest: C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\nv-vk64.json
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	           Library:  C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\.\nvoglv64.dll
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	     ||
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	   VK_LAYER_NV_present
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	           Type: Implicit
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	           Enabled By: Implicit Layer
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	               Disable Env Var:  DISABLE_LAYER_NV_GR2608_1
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	           Manifest: C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\nv-vk64.json
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	           Library:  C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\.\nvoglv64.dll
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	     ||
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	   VK_LAYER_KHRONOS_validation
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	           Type: Explicit
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	           Enabled By: By the Application
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	           Manifest: C:\VulkanSDK\1.4.321.1\Bin\VkLayer_khronos_validation.json
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	           Library:  C:\VulkanSDK\1.4.321.1\Bin\.\VkLayer_khronos_validation.dll
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	     ||
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	   <Drivers>
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] VALIDATION [WARNING-CreateInstance-status-message (0x23dfd876)]
+	vkCreateInstance(): Khronos Validation Layer Active:
+    Current Enables: VK_VALIDATION_FEATURE_ENABLE_SYNCHRONIZATION_VALIDATION_EXT.
+    Current Disables: None.
+
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[DEBUG wgpu_hal::vulkan::instance] Instance version: 0x404135
+[INFO wgpu_hal::vulkan::instance] Enabling debug utils
+[DEBUG wgpu_hal::vulkan::instance] Enabling device properties2
+[DEBUG wgpu_core::instance] Instance::new: created Vulkan backend
+[DEBUG wgpu_hal::dx12::instance] Using FXC for shader compilation
+[DEBUG wgpu_core::instance] Instance::new: created Dx12 backend
+[DEBUG wgpu_hal::gles::wgl] Enabling GL debug output
+[DEBUG wgpu_core::instance] Instance::new: created Gl backend
+[DEBUG wgpu_hal::gles::adapter] Vendor: NVIDIA Corporation
+[DEBUG wgpu_hal::gles::adapter] Renderer: NVIDIA GeForce RTX 2080 with Max-Q Design/PCIe/SSE2
+[DEBUG wgpu_hal::gles::adapter] Version: 4.6.0 NVIDIA 581.29
+[DEBUG wgpu_hal::gles::adapter] SL version: 4.60 NVIDIA
+[DEBUG wgpu_hal::gles::adapter] Supported GL Extensions: {
+    "GL_EXT_shadow_funcs",
+    "GL_ARB_vertex_array_object",
+    "GL_NV_feature_query",
+    "GL_ARB_sample_shading",
+    "GL_EXT_framebuffer_sRGB",
+    "GL_NV_query_resource_tag",
+    "GL_ARB_shader_draw_parameters",
+    "GL_NV_multisample_coverage",
+    "GL_EXT_stencil_wrap",
+    "GL_ARB_texture_env_dot3",
+    "GL_EXT_framebuffer_multisample_blit_scaled",
+    "GL_ARB_imaging",
+    "GL_EXT_texture_sRGB",
+    "GL_NV_viewport_swizzle",
+    "GL_EXT_texture_compression_s3tc",
+    "GL_EXT_blend_subtract",
+    "GL_NV_bindless_texture",
+    "GL_NV_texture_shader",
+    "GL_EXT_geometry_shader4",
+    "GL_NV_uniform_buffer_unified_memory",
+    "GL_NVX_conditional_render",
+    "GL_SGIX_shadow",
+    "GL_EXT_texture_integer",
+    "GL_EXT_gpu_shader4",
+    "WGL_EXT_swap_control",
+    "GL_ARB_point_sprite",
+    "GL_EXT_framebuffer_multisample",
+    "GL_EXT_transform_feedback2",
+    "GL_ARB_sync",
+    "GL_ARB_invalidate_subdata",
+    "GL_ARB_texture_compression",
+    "GL_EXT_texture_lod",
+    "GL_ARB_half_float_vertex",
+    "GL_ARB_vertex_program",
+    "GL_EXT_texture_shared_exponent",
+    "GL_EXT_texture3D",
+    "GL_EXT_vertex_attrib_64bit",
+    "GL_EXT_shader_image_load_store",
+    "GL_EXT_framebuffer_blit",
+    "GL_ARB_pixel_buffer_object",
+    "GL_ARB_shader_atomic_counters",
+    "GL_NV_internalformat_sample_query",
+    "GL_NV_half_float",
+    "GL_ATI_texture_float",
+    "GL_ARB_depth_clamp",
+    "GL_ARB_shader_group_vote",
+    "GL_ARB_ES3_1_compatibility",
+    "GL_ARB_robustness",
+    "GL_ARB_debug_output",
+    "GL_ARB_multisample",
+    "GL_ARB_compatibility",
+    "GL_ARB_texture_buffer_object",
+    "GL_EXT_texture_compression_latc",
+    "GL_NV_blend_equation_advanced",
+    "GL_ARB_get_texture_sub_image",
+    "GL_NV_draw_texture",
+    "GL_ARB_vertex_buffer_object",
+    "GL_ARB_post_depth_coverage",
+    "GL_NV_path_rendering_shared_edge",
+    "GL_NV_conservative_raster_pre_snap_triangles",
+    "GL_ARB_derivative_control",
+    "GL_NV_register_combiners",
+    "GL_NV_register_combiners2",
+    "GL_NV_shader_atomic_int64",
+    "GL_ATI_draw_buffers",
+    "GL_ARB_multitexture",
+    "GL_NV_shader_storage_buffer_object",
+    "GL_NV_texture_rectangle_compressed",
+    "GL_EXT_timer_query",
+    "GL_EXT_vertex_array",
+    "GL_ARB_shader_viewport_layer_array",
+    "GL_NV_parameter_buffer_object2",
+    "GL_NV_shader_thread_shuffle",
+    "GL_EXTX_framebuffer_mixed_formats",
+    "GL_NV_fog_distance",
+    "GL_ARB_robust_buffer_access_behavior",
+    "GL_EXT_secondary_color",
+    "GL_ARB_window_pos",
+    "GL_NV_gpu_program_fp64",
+    "GL_ARB_fragment_coord_conventions",
+    "GL_KHR_shader_subgroup",
+    "GL_ARB_ES2_compatibility",
+    "GL_NV_fragment_program",
+    "GL_NV_bindless_multi_draw_indirect",
+    "GL_NV_fragment_shader_barycentric",
+    "GL_EXT_separate_specular_color",
+    "GL_ARB_texture_rectangle",
+    "GL_NV_texture_shader3",
+    "GL_ARB_fragment_shader_interlock",
+    "GL_ARB_compressed_texture_pixel_storage",
+    "GL_ARB_vertex_type_2_10_10_10_rev",
+    "GL_IBM_rasterpos_clip",
+    "GL_ARB_fragment_layer_viewport",
+    "GL_ARB_sampler_objects",
+    "GL_ARB_timer_query",
+    "GL_ARB_compute_shader",
+    "GL_KHR_debug",
+    "GL_EXT_texture_cube_map",
+    "GL_NV_fragment_coverage_to_color",
+    "GL_NV_gpu_program5",
+    "GL_NVX_multigpu_info",
+    "GL_ARB_shadow",
+    "GL_ARB_vertex_type_10f_11f_11f_rev",
+    "GL_EXT_multiview_timer_query",
+    "GL_KHR_parallel_shader_compile",
+    "GL_ARB_gpu_shader_int64",
+    "GL_EXT_draw_instanced",
+    "GL_EXT_polygon_offset_clamp",
+    "GL_KHR_robustness",
+    "GL_ARB_fragment_program",
+    "GL_EXT_blend_minmax",
+    "GL_NV_blend_minmax_factor",
+    "GL_NV_gpu_program4",
+    "GL_NV_sample_locations",
+    "GL_ARB_arrays_of_arrays",
+    "GL_ARB_texture_compression_rgtc",
+    "GL_EXT_texture_buffer_object",
+    "GL_NV_vertex_array_range",
+    "GL_NV_shading_rate_image",
+    "GL_NVX_linked_gpu_multicast",
+    "GL_ARB_texture_view",
+    "GL_ARB_occlusion_query",
+    "GL_EXT_memory_object_win32",
+    "GL_ARB_texture_buffer_object_rgb32",
+    "GL_ARB_indirect_parameters",
+    "GL_EXT_texture_compression_rgtc",
+    "GL_KHR_robust_buffer_access_behavior",
+    "GL_NV_gpu_program_multiview",
+    "GL_NV_texgen_reflection",
+    "GL_NVX_gpu_memory_info",
+    "GL_SUN_slice_accum",
+    "GL_ARB_geometry_shader4",
+    "GL_ARB_texture_cube_map",
+    "GL_ARB_vertex_attrib_binding",
+    "GL_ATI_texture_mirror_once",
+    "GL_EXT_draw_range_elements",
+    "GL_EXT_fog_coord",
+    "GL_EXT_texture_lod_bias",
+    "GL_ARB_ES3_2_compatibility",
+    "GL_NV_conservative_raster_underestimation",
+    "GL_EXT_texture_sRGB_decode",
+    "GL_NV_geometry_shader4",
+    "GL_NV_texture_rectangle",
+    "GL_ARB_texture_cube_map_array",
+    "GL_ARB_texture_buffer_range",
+    "GL_ARB_seamless_cubemap_per_texture",
+    "GL_ARB_explicit_uniform_location",
+    "GL_ARB_texture_query_lod",
+    "GL_EXT_compiled_vertex_array",
+    "GL_ARB_gl_spirv",
+    "GL_ARB_shading_language_420pack",
+    "GL_ARB_bindless_texture",
+    "GL_ARB_viewport_array",
+    "GL_NV_transform_feedback",
+    "GL_ARB_shader_image_size",
+    "GL_NV_occlusion_query",
+    "GL_NVX_progress_fence",
+    "GL_ARB_enhanced_layouts",
+    "GL_ARB_transform_feedback_overflow_query",
+    "GL_ARB_sparse_buffer",
+    "GL_EXT_gpu_program_parameters",
+    "GL_NV_ES1_1_compatibility",
+    "GL_ARB_cull_distance",
+    "GL_ARB_texture_gather",
+    "GL_ARB_direct_state_access",
+    "GL_ARB_framebuffer_no_attachments",
+    "GL_NV_bindless_multi_draw_indirect_count",
+    "GL_NV_command_list",
+    "GL_ARB_texture_mirror_clamp_to_edge",
+    "GL_EXT_raster_multisample",
+    "GL_EXT_texture_env_add",
+    "GL_ARB_gpu_shader_fp64",
+    "GL_ARB_texture_env_crossbar",
+    "GL_NV_compute_shader_derivatives",
+    "GL_NV_fragment_program2",
+    "GL_KHR_blend_equation_advanced_coherent",
+    "GL_ARB_vertex_array_bgra",
+    "GL_NV_timeline_semaphore",
+    "GL_ARB_map_buffer_range",
+    "GL_EXT_vertex_array_bgra",
+    "GL_ARB_separate_shader_objects",
+    "GL_WIN_swap_hint",
+    "GL_EXT_direct_state_access",
+    "GL_NV_texture_shader2",
+    "GL_NV_shader_atomic_counters",
+    "GL_EXT_packed_depth_stencil",
+    "GL_ARB_texture_query_levels",
+    "GL_ARB_compute_variable_group_size",
+    "GL_EXT_texture_object",
+    "GL_EXT_post_depth_coverage",
+    "GL_ARB_texture_rgb10_a2ui",
+    "GL_ARB_texture_barrier",
+    "GL_NV_multisample_filter_hint",
+    "GL_ARB_instanced_arrays",
+    "GL_EXT_draw_buffers2",
+    "GL_NV_shader_subgroup_partitioned",
+    "GL_NV_texture_env_combine4",
+    "GL_NV_vertex_program2",
+    "GL_ARB_depth_buffer_float",
+    "GL_ARB_get_program_binary",
+    "GL_EXT_texture_filter_anisotropic",
+    "GL_NV_conservative_raster_pre_snap",
+    "GL_ARB_point_parameters",
+    "GL_ARB_sparse_texture",
+    "GL_NV_draw_vulkan_image",
+    "GL_ARB_transform_feedback_instanced",
+    "GL_NV_texture_compression_vtc",
+    "GL_EXT_separate_shader_objects",
+    "GL_NV_geometry_shader_passthrough",
+    "GL_EXT_texture_edge_clamp",
+    "GL_ARB_texture_compression_bptc",
+    "GL_NV_scissor_exclusive",
+    "GL_AMD_seamless_cubemap_per_texture",
+    "GL_NV_ES3_1_compatibility",
+    "GL_ARB_pipeline_statistics_query",
+    "GL_ARB_ES3_compatibility",
+    "GL_EXT_bindable_uniform",
+    "GL_NV_uniform_buffer_std430_layout",
+    "GL_ARB_shader_atomic_counter_ops",
+    "GL_EXT_semaphore",
+    "GL_ARB_draw_elements_base_vertex",
+    "GL_ARB_internalformat_query",
+    "GL_EXT_depth_bounds_test",
+    "GL_ARB_fragment_program_shadow",
+    "GL_EXT_texture_filter_minmax",
+    "GL_ARB_texture_float",
+    "GL_EXT_texture_mirror_clamp",
+    "GL_EXT_semaphore_win32",
+    "GL_ARB_sample_locations",
+    "GL_NV_depth_buffer_float",
+    "GL_NV_sample_mask_override_coverage",
+    "GL_NV_shader_atomic_float",
+    "GL_NV_shader_texture_footprint",
+    "GL_EXT_packed_float",
+    "GL_ARB_query_buffer_object",
+    "GL_EXT_win32_keyed_mutex",
+    "GL_NV_conditional_render",
+    "GL_SGIS_texture_lod",
+    "GL_ARB_color_buffer_float",
+    "GL_ARB_stencil_texturing",
+    "GL_EXT_texture_env_combine",
+    "GL_NVX_nvenc_interop",
+    "GL_NV_vertex_attrib_integer_64bit",
+    "GL_EXT_window_rectangles",
+    "GL_ARB_occlusion_query2",
+    "GL_NV_memory_attachment",
+    "GL_ARB_shader_image_load_store",
+    "GL_ARB_vertex_attrib_64bit",
+    "GL_ARB_gpu_shader5",
+    "GL_ARB_parallel_shader_compile",
+    "GL_ARB_shader_subroutine",
+    "GL_EXT_sparse_texture2",
+    "GL_NV_representative_fragment_test",
+    "GL_ARB_shader_bit_encoding",
+    "GL_ARB_texture_border_clamp",
+    "GL_EXT_import_sync_object",
+    "GL_ARB_draw_instanced",
+    "GL_ARB_program_interface_query",
+    "GL_NV_fragment_shader_interlock",
+    "GL_ARB_framebuffer_sRGB",
+    "GL_ARB_texture_mirrored_repeat",
+    "GL_ARB_shader_texture_image_samples",
+    "GL_NVX_blend_equation_advanced_multi_draw_buffers",
+    "GL_NV_fragment_program_option",
+    "GL_NV_framebuffer_multisample_coverage",
+    "GL_NV_pixel_data_range",
+    "GL_ARB_half_float_pixel",
+    "GL_NV_query_resource",
+    "GL_ARB_framebuffer_object",
+    "GL_EXT_shader_integer_mix",
+    "GL_NV_vertex_program",
+    "GL_S3_s3tc",
+    "GL_NV_copy_depth_to_color",
+    "GL_ARB_shading_language_100",
+    "GL_ARB_vertex_shader",
+    "GL_NV_shader_atomic_float64",
+    "GL_ARB_texture_swizzle",
+    "GL_ARB_clip_control",
+    "GL_KHR_no_error",
+    "GL_EXT_blend_color",
+    "GL_EXT_stencil_two_side",
+    "GL_ARB_internalformat_query2",
+    "GL_KHR_context_flush_control",
+    "GL_ARB_provoking_vertex",
+    "GL_ARB_tessellation_shader",
+    "GL_ARB_transpose_matrix",
+    "GL_EXT_blend_func_separate",
+    "GL_NV_point_sprite",
+    "GL_ARB_texture_multisample",
+    "GL_EXT_point_parameters",
+    "GL_NV_copy_image",
+    "GL_ARB_copy_buffer",
+    "GL_ARB_shading_language_packing",
+    "GL_KTX_buffer_region",
+    "GL_NV_float_buffer",
+    "GL_NV_framebuffer_mixed_samples",
+    "GL_NV_texture_multisample",
+    "GL_NV_vertex_program2_option",
+    "GL_OVR_multiview",
+    "GL_SGIS_generate_mipmap",
+    "GL_NV_compute_program5",
+    "GL_ARB_blend_func_extended",
+    "GL_ARB_texture_stencil8",
+    "GL_ARB_transform_feedback3",
+    "GL_EXT_provoking_vertex",
+    "GL_EXT_shader_image_load_formatted",
+    "GL_NV_blend_equation_advanced_coherent",
+    "GL_ARB_shader_ballot",
+    "GL_ARB_conditional_render_inverted",
+    "GL_NV_depth_clamp",
+    "GL_NV_explicit_multisample",
+    "GL_SGIX_depth_texture",
+    "GL_NV_vertex_program3",
+    "GL_AMD_multi_draw_indirect",
+    "GL_ARB_draw_indirect",
+    "GL_ARB_seamless_cube_map",
+    "GL_ARB_shading_language_include",
+    "GL_NV_conservative_raster",
+    "GL_NV_shader_atomic_fp16_vector",
+    "GL_EXT_texture_env_dot3",
+    "GL_EXT_pixel_buffer_object",
+    "GL_NVX_gpu_multicast2",
+    "GL_ARB_shader_clock",
+    "GL_EXT_abgr",
+    "GL_ARB_draw_buffers",
+    "GL_NV_blend_square",
+    "GL_NV_alpha_to_coverage_dither_control",
+    "GL_ARB_texture_env_add",
+    "GL_ARB_texture_filter_anisotropic",
+    "GL_ARB_sparse_texture_clamp",
+    "GL_AMD_vertex_shader_viewport_index",
+    "GL_NV_gpu_shader5",
+    "GL_ARB_texture_non_power_of_two",
+    "GL_ARB_uniform_buffer_object",
+    "GL_NV_clip_space_w_scaling",
+    "GL_ARB_shader_texture_lod",
+    "GL_NV_memory_object_sparse",
+    "GL_EXT_memory_object",
+    "GL_EXT_Cg_shader",
+    "GL_NV_gpu_program5_mem_extended",
+    "GL_NV_mesh_shader",
+    "GL_NV_packed_depth_stencil",
+    "GL_NV_transform_feedback2",
+    "GL_EXT_multiview_texture_multisample",
+    "GL_NV_light_max_exponent",
+    "GL_ARB_texture_env_combine",
+    "GL_EXT_texture_swizzle",
+    "GL_ARB_explicit_attrib_location",
+    "GL_EXT_texture_storage",
+    "GL_NV_vertex_array_range2",
+    "GL_NV_vertex_program1_1",
+    "GL_ARB_clear_buffer_object",
+    "GL_NV_fence",
+    "GL_ARB_texture_storage_multisample",
+    "GL_ARB_depth_texture",
+    "GL_ARB_shader_objects",
+    "GL_EXT_rescale_normal",
+    "GL_NV_texture_barrier",
+    "GL_KHR_blend_equation_advanced",
+    "GL_ARB_texture_rg",
+    "GL_ARB_shader_storage_buffer_object",
+    "GL_ARB_map_buffer_alignment",
+    "GL_ARB_transform_feedback2",
+    "GL_NV_viewport_array2",
+    "GL_EXT_texture_array",
+    "GL_OVR_multiview2",
+    "GL_ARB_multi_bind",
+    "GL_NV_parameter_buffer_object",
+    "GL_EXT_blend_equation_separate",
+    "GL_AMD_vertex_shader_layer",
+    "GL_ARB_shader_precision",
+    "GL_NV_conservative_raster_dilate",
+    "GL_ARB_texture_filter_minmax",
+    "GL_IBM_texture_mirrored_repeat",
+    "GL_ARB_sparse_texture2",
+    "GL_ARB_polygon_offset_clamp",
+    "GL_ARB_conservative_depth",
+    "GL_EXT_texture_shadow_lod",
+    "GL_ARB_spirv_extensions",
+    "GL_NV_primitive_restart",
+    "GL_EXT_texture_sRGB_R8",
+    "GL_ARB_clear_texture",
+    "GL_ARB_copy_image",
+    "GL_NV_shader_buffer_load",
+    "GL_NV_stereo_view_rendering",
+    "GL_ARB_buffer_storage",
+    "GL_ARB_draw_buffers_blend",
+    "GL_ARB_texture_storage",
+    "GL_NV_path_rendering",
+    "GL_NV_fill_rectangle",
+    "GL_EXT_packed_pixels",
+    "GL_NV_vertex_buffer_unified_memory",
+    "GL_EXT_bgra",
+    "GL_NV_gpu_multicast",
+    "GL_ARB_fragment_shader",
+    "GL_NV_shader_thread_group",
+    "GL_EXT_texture_compression_dxt1",
+    "GL_ARB_base_instance",
+    "GL_ARB_multi_draw_indirect",
+    "GL_EXT_framebuffer_object",
+    "GL_NV_gpu_program4_1",
+    "GL_EXT_multi_draw_arrays",
+}
+[DEBUG wgpu_core::instance] Found 4 compatible adapters. Sorted by preference:
+[DEBUG wgpu_core::instance] * AdapterInfo { name: "NVIDIA GeForce RTX 2080 with Max-Q Design", vendor: 4318, device: 7888, device_type: DiscreteGpu, driver: "NVIDIA", driver_info: "581.29", backend: Vulkan }
+[DEBUG wgpu_core::instance] * AdapterInfo { name: "NVIDIA GeForce RTX 2080 with Max-Q Design", vendor: 4318, device: 7888, device_type: DiscreteGpu, driver: "32.0.15.8129", driver_info: "", backend: Dx12 }
+[DEBUG wgpu_core::instance] * AdapterInfo { name: "Microsoft Basic Render Driver", vendor: 5140, device: 140, device_type: Cpu, driver: "10.0.19041.5794", driver_info: "", backend: Dx12 }
+[DEBUG wgpu_core::instance] * AdapterInfo { name: "NVIDIA GeForce RTX 2080 with Max-Q Design/PCIe/SSE2", vendor: 4318, device: 0, device_type: Other, driver: "", driver_info: "4.6.0 NVIDIA 581.29", backend: Gl }
+[DEBUG wgpu_core::instance] Request adapter result AdapterInfo { name: "NVIDIA GeForce RTX 2080 with Max-Q Design", vendor: 4318, device: 7888, device_type: DiscreteGpu, driver: "NVIDIA", driver_info: "581.29", backend: Vulkan }
+[DEBUG wgpu_hal::vulkan::adapter] Supported extensions: ["VK_KHR_swapchain", "VK_KHR_swapchain_mutable_format", "VK_EXT_robustness2", "VK_KHR_external_memory_win32", "VK_EXT_memory_budget"]
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Inserted device layer "VK_LAYER_KHRONOS_validation" (C:\VulkanSDK\1.4.321.1\Bin\.\VkLayer_khronos_validation.dll)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Inserted device layer "VK_LAYER_NV_present" (C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\.\nvoglv64.dll)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	Inserted device layer "VK_LAYER_NV_optimus" (C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\.\nvoglv64.dll)
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	vkCreateDevice layer callstack setup to:
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	   <Application>
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	     ||
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	   <Loader>
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	     ||
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	   VK_LAYER_NV_optimus
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	           Type: Implicit
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	           Enabled By: Implicit Layer
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	               Disable Env Var:  DISABLE_LAYER_NV_OPTIMUS_1
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	           Manifest: C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\nv-vk64.json
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	           Library:  C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\.\nvoglv64.dll
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	     ||
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	   VK_LAYER_NV_present
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	           Type: Implicit
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	           Enabled By: Implicit Layer
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	               Disable Env Var:  DISABLE_LAYER_NV_GR2608_1
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	           Manifest: C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\nv-vk64.json
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	           Library:  C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\.\nvoglv64.dll
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	     ||
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	   VK_LAYER_KHRONOS_validation
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	           Type: Explicit
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	           Enabled By: By the Application
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	           Manifest: C:\VulkanSDK\1.4.321.1\Bin\VkLayer_khronos_validation.json
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	           Library:  C:\VulkanSDK\1.4.321.1\Bin\.\VkLayer_khronos_validation.dll
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	     ||
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	   <Device>
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[INFO wgpu_hal::vulkan::instance] GENERAL [Loader Message (0x0)]
+	       Using "NVIDIA GeForce RTX 2080 with Max-Q Design" with driver: "C:\WINDOWS\System32\DriverStore\FileRepository\nvhmi.inf_amd64_6515c7642d8c2849\.\nvoglv64.dll"
+[INFO wgpu_hal::vulkan::instance] 	objects: (type: INSTANCE, hndl: 0x214ace86840, name: ?)
+[DEBUG wgpu_core::device::global] configuring surface with SurfaceConfiguration { usage: TextureUsages(RENDER_ATTACHMENT), format: Bgra8UnormSrgb, width: 800, height: 600, present_mode: Fifo, desired_maximum_frame_latency: 3, alpha_mode: Auto, view_formats: [] }
+[ERROR wgpu::backend::wgpu_core] Handling wgpu errors as fatal by default

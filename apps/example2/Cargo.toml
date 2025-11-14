@@ -1,0 +1,12 @@
+[package]
+name = "example2"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+env_logger.workspace = true
+log.workspace = true
+wgpu.workspace = true
+bytemuck.workspace = true
+winit.workspace = true
+pollster.workspace = true
